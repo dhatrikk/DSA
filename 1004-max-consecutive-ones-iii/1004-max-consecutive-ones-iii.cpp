@@ -4,8 +4,9 @@ public:
         int ze = 0;
         int l = 0, r = 0;
         int len = 0;
+        int n = nums.size();
 
-        while (r < nums.size()) {
+        while (r < n) {
             if (nums[r] == 0) {
                 ze++;
             }
