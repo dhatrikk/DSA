@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 6 July 2026 at 03:48 pm IST |
+| **Submitted** | 6 July 2026 at 03:50 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 14.7 MB *(beats 54.9%)* |
 | **Topics** | `Array` `Hash Table` |
