@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **2** | 2026-07-06 |
+| **3** | 2026-07-06 |
 
 ---
 
@@ -19,6 +19,7 @@
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-07-06 | 04:45 pm |
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
+| 3838 | [Weighted Word Mapping](solutions/3838-weighted-word-mapping.md) | 🟢 Easy | 2026-07-06 | 06:25 pm |
 
 ---
 
