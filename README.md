@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **1** | 2026-07-06 |
+| **2** | 2026-07-06 |
 
 ---
 
@@ -18,6 +18,7 @@
 | # | Problem | Difficulty | Date | Time (IST) |
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-07-06 | 04:45 pm |
+| 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 
 ---
 
