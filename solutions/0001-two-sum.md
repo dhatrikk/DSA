@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 6 July 2026 at 03:50 pm IST |
-| **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 14.7 MB *(beats 54.9%)* |
+| **Submitted** | 6 July 2026 at 04:45 pm IST |
+| **Runtime** | 3 ms *(beats 66.8%)* |
+| **Memory** | 14.9 MB *(beats 19.1%)* |
 | **Topics** | `Array` `Hash Table` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/two-sum/)
