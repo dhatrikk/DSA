@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **8** | 2026-07-06 |
+| **9** | 2026-07-06 |
 
 ---
 
@@ -23,6 +23,7 @@
 | 144 | [Binary Tree Preorder Traversal](solutions/0144-binary-tree-preorder-traversal.md) | 🟢 Easy | 2026-07-11 | 09:18 am |
 | 145 | [Binary Tree Postorder Traversal](solutions/0145-binary-tree-postorder-traversal.md) | 🟢 Easy | 2026-07-12 | 12:46 am |
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
+| 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](solutions/3754-concatenate-non-zero-digits-and-multiply-by-sum-i.md) | 🟢 Easy | 2026-07-07 | 11:40 pm |
 | 3838 | [Weighted Word Mapping](solutions/3838-weighted-word-mapping.md) | 🟢 Easy | 2026-07-06 | 06:25 pm |
 
