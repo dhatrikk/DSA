@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 11 July 2026 at 02:23 pm IST |
+| **Submitted** | 20 July 2026 at 03:18 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10.9 MB *(beats 66.1%)* |
+| **Memory** | 11 MB *(beats 34.2%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -81,22 +81,21 @@ public:
         if(!root){
             return {};
         }
-        vector<int> ans;
-        stack<TreeNode*> st;
+        stack<TreeNode*> st; 
         TreeNode* node=root;
+        vector<int> ans;
 
-        while(!st.empty() || node){
+        while(node || !st.empty()){
             while(node){
                 st.push(node);
                 node=node->left;
             }
-            if(!st.empty()){
-                node=st.top();
-                st.pop();
-                ans.push_back(node->val);
-                node=node->right;
-            }
+            node=st.top();
+            st.pop();
+            ans.push_back(node->val);
+            node=node->right;
         }
+
         return ans;
     }
 };
