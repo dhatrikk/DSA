@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **11** | 2026-07-06 |
+| **12** | 2026-07-06 |
 
 ---
 
@@ -26,6 +26,7 @@
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
 | 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
+| 3499 | [Maximize Active Section with Trade I](solutions/3499-maximize-active-section-with-trade-i.md) | 🟡 Medium | 2026-07-22 | 03:52 am |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](solutions/3754-concatenate-non-zero-digits-and-multiply-by-sum-i.md) | 🟢 Easy | 2026-07-07 | 11:40 pm |
 | 3838 | [Weighted Word Mapping](solutions/3838-weighted-word-mapping.md) | 🟢 Easy | 2026-07-06 | 06:25 pm |
 
