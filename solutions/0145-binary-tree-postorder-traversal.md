@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 12 July 2026 at 12:46 am IST |
+| **Submitted** | 23 July 2026 at 02:51 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 11.1 MB *(beats 44.2%)* |
+| **Memory** | 10.9 MB *(beats 93.5%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -72,35 +72,44 @@ Given the `root` of a binary tree, return *the postorder traversal of its nodes'
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        if(!root){
+        if (!root) {
             return {};
         }
 
-        stack<TreeNode*> st;
-        st.push(root);
-        TreeNode* n;
         vector<int> ans;
+        stack<TreeNode*> st;
 
-        while(!st.empty()){
-            n=st.top();
-            st.pop();
-            ans.push_back(n->val);
-            if(n->left){
-                st.push(n->left);
-            }
-            if(n->right){
-                st.push(n->right);
+        TreeNode* node = root;
+        TreeNode* temp;
+
+        while (node || st.size()) {
+            if (node) {
+                st.push(node);
+                node = node->left;
+            } else {
+                temp = st.top()->right;
+                if (temp) {
+                    node = temp;
+                } else {
+                    temp = st.top();
+                    st.pop();
+                    ans.push_back(temp->val);
+                    while (st.size() && st.top()->right == temp) {
+                        temp = st.top();
+                        st.pop();
+                        ans.push_back(temp->val);
+                    }
+                }
             }
         }
-        reverse(ans.begin(), ans.end());
         return ans;
-        
     }
 };
 ```
