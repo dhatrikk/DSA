@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **18** | 2026-07-06 |
+| **19** | 2026-07-06 |
 
 ---
 
@@ -22,6 +22,7 @@
 | 94 | [Binary Tree Inorder Traversal](solutions/0094-binary-tree-inorder-traversal.md) | 🟢 Easy | 2026-07-20 | 03:18 pm |
 | 144 | [Binary Tree Preorder Traversal](solutions/0144-binary-tree-preorder-traversal.md) | 🟢 Easy | 2026-07-11 | 09:18 am |
 | 145 | [Binary Tree Postorder Traversal](solutions/0145-binary-tree-postorder-traversal.md) | 🟢 Easy | 2026-07-23 | 02:51 pm |
+| 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
