@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **16** | 2026-07-06 |
+| **17** | 2026-07-06 |
 
 ---
 
@@ -28,6 +28,7 @@
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
 | 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
+| 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
 | 3499 | [Maximize Active Section with Trade I](solutions/3499-maximize-active-section-with-trade-i.md) | 🟡 Medium | 2026-07-22 | 03:52 am |
 | 3536 | [Maximum Product of Two Digits](solutions/3536-maximum-product-of-two-digits.md) | 🟢 Easy | 2026-07-25 | 03:30 pm |
