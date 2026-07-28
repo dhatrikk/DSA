@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **20** | 2026-07-06 |
+| **21** | 2026-07-06 |
 
 ---
 
@@ -34,6 +34,7 @@
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
 | 3499 | [Maximize Active Section with Trade I](solutions/3499-maximize-active-section-with-trade-i.md) | 🟡 Medium | 2026-07-22 | 03:52 am |
+| 3517 | [Smallest Palindromic Rearrangement I](solutions/3517-smallest-palindromic-rearrangement-i.md) | 🟡 Medium | 2026-07-28 | 07:54 pm |
 | 3536 | [Maximum Product of Two Digits](solutions/3536-maximum-product-of-two-digits.md) | 🟢 Easy | 2026-07-25 | 03:30 pm |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](solutions/3754-concatenate-non-zero-digits-and-multiply-by-sum-i.md) | 🟢 Easy | 2026-07-07 | 11:40 pm |
 | 3838 | [Weighted Word Mapping](solutions/3838-weighted-word-mapping.md) | 🟢 Easy | 2026-07-06 | 06:25 pm |
