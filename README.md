@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **27** | 2026-07-06 |
+| **28** | 2026-07-06 |
 
 ---
 
@@ -38,6 +38,7 @@
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
+| 3014 | [Minimum Number of Pushes to Type Word I](solutions/3014-minimum-number-of-pushes-to-type-word-i.md) | 🟢 Easy | 2026-07-30 | 10:14 pm |
 | 3499 | [Maximize Active Section with Trade I](solutions/3499-maximize-active-section-with-trade-i.md) | 🟡 Medium | 2026-07-22 | 03:52 am |
 | 3517 | [Smallest Palindromic Rearrangement I](solutions/3517-smallest-palindromic-rearrangement-i.md) | 🟡 Medium | 2026-07-28 | 07:54 pm |
 | 3518 | [Smallest Palindromic Rearrangement II](solutions/3518-smallest-palindromic-rearrangement-ii.md) | 🔴 Hard | 2026-07-30 | 10:03 pm |
