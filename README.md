@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **32** | 2026-07-06 |
+| **33** | 2026-07-06 |
 
 ---
 
@@ -19,6 +19,7 @@
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-07-06 | 04:45 pm |
 | 7 | [Reverse Integer](solutions/0007-reverse-integer.md) | 🟡 Medium | 2026-07-06 | 06:38 pm |
+| 15 | [3Sum](solutions/0015-3sum.md) | 🟡 Medium | 2026-08-01 | 08:44 am |
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
