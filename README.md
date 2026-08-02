@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **37** | 2026-07-06 |
+| **38** | 2026-07-06 |
 
 ---
 
@@ -30,6 +30,7 @@
 | 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock.md) | 🟢 Easy | 2026-07-28 | 08:03 pm |
 | 144 | [Binary Tree Preorder Traversal](solutions/0144-binary-tree-preorder-traversal.md) | 🟢 Easy | 2026-07-11 | 09:18 am |
 | 145 | [Binary Tree Postorder Traversal](solutions/0145-binary-tree-postorder-traversal.md) | 🟢 Easy | 2026-07-23 | 02:51 pm |
+| 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray.md) | 🟡 Medium | 2026-08-03 | 05:10 am |
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
