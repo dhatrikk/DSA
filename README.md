@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **35** | 2026-07-06 |
+| **36** | 2026-07-06 |
 
 ---
 
@@ -35,6 +35,7 @@
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-07-31 | 03:39 am |
+| 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-07-26 | 03:48 am |
