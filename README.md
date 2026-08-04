@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **42** | 2026-07-06 |
+| **43** | 2026-07-06 |
 
 ---
 
@@ -42,6 +42,7 @@
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-08-04 | 05:58 am |
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
+| 912 | [Sort an Array](solutions/0912-sort-an-array.md) | 🟡 Medium | 2026-08-04 | 08:30 pm |
 | 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-07-26 | 03:48 am |
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
