@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **41** | 2026-07-06 |
+| **42** | 2026-07-06 |
 
 ---
 
@@ -56,6 +56,7 @@
 | 3517 | [Smallest Palindromic Rearrangement I](solutions/3517-smallest-palindromic-rearrangement-i.md) | 🟡 Medium | 2026-07-28 | 07:54 pm |
 | 3518 | [Smallest Palindromic Rearrangement II](solutions/3518-smallest-palindromic-rearrangement-ii.md) | 🔴 Hard | 2026-07-30 | 10:03 pm |
 | 3536 | [Maximum Product of Two Digits](solutions/3536-maximum-product-of-two-digits.md) | 🟢 Easy | 2026-07-25 | 03:30 pm |
+| 3731 | [Find Missing Elements](solutions/3731-find-missing-elements.md) | 🟢 Easy | 2026-08-04 | 06:08 am |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](solutions/3754-concatenate-non-zero-digits-and-multiply-by-sum-i.md) | 🟢 Easy | 2026-07-07 | 11:40 pm |
 | 3838 | [Weighted Word Mapping](solutions/3838-weighted-word-mapping.md) | 🟢 Easy | 2026-07-06 | 06:25 pm |
 
