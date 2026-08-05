@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **43** | 2026-07-06 |
+| **44** | 2026-07-06 |
 
 ---
 
@@ -37,6 +37,7 @@
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-07-31 | 03:39 am |
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
+| 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k.md) | 🟡 Medium | 2026-08-03 | 05:46 am |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
