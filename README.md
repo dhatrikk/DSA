@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **53** | 2026-07-06 |
+| **54** | 2026-07-06 |
 
 ---
 
@@ -27,6 +27,7 @@
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
+| 79 | [Word Search](solutions/0079-word-search.md) | 🟡 Medium | 2026-08-07 | 05:21 am |
 | 88 | [Merge Sorted Array](solutions/0088-merge-sorted-array.md) | 🟢 Easy | 2026-07-31 | 04:04 am |
 | 94 | [Binary Tree Inorder Traversal](solutions/0094-binary-tree-inorder-traversal.md) | 🟢 Easy | 2026-07-20 | 03:18 pm |
 | 118 | [Pascal's Triangle](solutions/0118-pascals-triangle.md) | 🟢 Easy | 2026-07-29 | 11:18 pm |
