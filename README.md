@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **50** | 2026-07-06 |
+| **51** | 2026-07-06 |
 
 ---
 
@@ -19,6 +19,7 @@
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-07-06 | 04:45 pm |
 | 7 | [Reverse Integer](solutions/0007-reverse-integer.md) | 🟡 Medium | 2026-07-06 | 06:38 pm |
+| 8 | [String to Integer (atoi)](solutions/0008-string-to-integer-atoi.md) | 🟡 Medium | 2026-08-06 | 06:29 am |
 | 13 | [Roman to Integer](solutions/0013-roman-to-integer.md) | 🟢 Easy | 2026-08-06 | 03:58 am |
 | 14 | [Longest Common Prefix](solutions/0014-longest-common-prefix.md) | 🟢 Easy | 2026-08-05 | 02:58 pm |
 | 15 | [3Sum](solutions/0015-3sum.md) | 🟡 Medium | 2026-08-01 | 08:44 am |
