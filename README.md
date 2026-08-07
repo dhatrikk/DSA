@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **56** | 2026-07-06 |
+| **57** | 2026-07-06 |
 
 ---
 
@@ -61,6 +61,7 @@
 | 1406 | [Stone Game III](solutions/1406-stone-game-iii.md) | 🔴 Hard | 2026-08-04 | 04:28 am |
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
+| 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
 | 3014 | [Minimum Number of Pushes to Type Word I](solutions/3014-minimum-number-of-pushes-to-type-word-i.md) | 🟢 Easy | 2026-07-30 | 10:14 pm |
