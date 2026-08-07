@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **55** | 2026-07-06 |
+| **56** | 2026-07-06 |
 
 ---
 
@@ -18,6 +18,7 @@
 | # | Problem | Difficulty | Date | Time (IST) |
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-07-06 | 04:45 pm |
+| 5 | [Longest Palindromic Substring](solutions/0005-longest-palindromic-substring.md) | 🟡 Medium | 2026-08-07 | 10:50 pm |
 | 7 | [Reverse Integer](solutions/0007-reverse-integer.md) | 🟡 Medium | 2026-07-06 | 06:38 pm |
 | 8 | [String to Integer (atoi)](solutions/0008-string-to-integer-atoi.md) | 🟡 Medium | 2026-08-06 | 06:29 am |
 | 13 | [Roman to Integer](solutions/0013-roman-to-integer.md) | 🟢 Easy | 2026-08-06 | 03:58 am |
