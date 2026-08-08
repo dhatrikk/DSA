@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **59** | 2026-07-06 |
+| **60** | 2026-07-06 |
 
 ---
 
@@ -25,6 +25,7 @@
 | 14 | [Longest Common Prefix](solutions/0014-longest-common-prefix.md) | 🟢 Easy | 2026-08-05 | 02:58 pm |
 | 15 | [3Sum](solutions/0015-3sum.md) | 🟡 Medium | 2026-08-01 | 08:44 am |
 | 18 | [4Sum](solutions/0018-4sum.md) | 🟡 Medium | 2026-08-02 | 01:16 am |
+| 34 | [Find First and Last Position of Element in Sorted Array](solutions/0034-find-first-and-last-position-of-element-in-sorted-array.md) | 🟡 Medium | 2026-08-08 | 02:33 pm |
 | 35 | [Search Insert Position](solutions/0035-search-insert-position.md) | 🟢 Easy | 2026-08-08 | 01:07 pm |
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
