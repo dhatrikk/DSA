@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **61** | 2026-07-06 |
+| **62** | 2026-07-06 |
 
 ---
 
@@ -38,6 +38,7 @@
 | 144 | [Binary Tree Preorder Traversal](solutions/0144-binary-tree-preorder-traversal.md) | 🟢 Easy | 2026-07-11 | 09:18 am |
 | 145 | [Binary Tree Postorder Traversal](solutions/0145-binary-tree-postorder-traversal.md) | 🟢 Easy | 2026-07-23 | 02:51 pm |
 | 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray.md) | 🟡 Medium | 2026-08-03 | 05:10 am |
+| 153 | [Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array.md) | 🟡 Medium | 2026-08-08 | 05:36 pm |
 | 162 | [Find Peak Element](solutions/0162-find-peak-element.md) | 🟡 Medium | 2026-08-08 | 04:01 pm |
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
