@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **63** | 2026-07-06 |
+| **64** | 2026-07-06 |
 
 ---
 
@@ -51,6 +51,7 @@
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
 | 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
+| 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k.md) | 🟡 Medium | 2026-08-03 | 05:46 am |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-08-04 | 05:58 am |
