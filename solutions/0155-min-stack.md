@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 9 August 2026 at 10:31 am IST |
-| **Runtime** | 52 ms *(beats 75.7%)* |
-| **Memory** | 150.9 MB *(beats 92.8%)* |
+| **Submitted** | 9 August 2026 at 04:16 pm IST |
+| **Runtime** | 55 ms *(beats 67.6%)* |
+| **Memory** | 151.1 MB *(beats 78.8%)* |
 | **Topics** | `Stack` `Design` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/min-stack/)
@@ -70,24 +70,85 @@ minStack.getMin(); // return -2
 
 ```cpp
 class MinStack {
-     stack<pair<int, int>> st; 
+    long long mn=INT_MAX;
+    stack<long long> st;
 public:
-    MinStack() {}
-
-    void push(int value) {
-        int m = value;
-        if (!st.empty()) {
-            m = min(value, st.top().second);
-        }
-        st.push({value, m});
+    MinStack() {
+        
     }
-
-    void pop() { st.pop(); }
-
-    int top() { return st.top().first; }
-
-    int getMin() { return st.top().second; }
+    
+    void push(int value) {
+        if(st.empty()){
+            st.push(value);
+            mn=value;
+        }else{
+            if(value<mn){
+                st.push(2ll*value-mn);
+                mn=value;
+            }else{
+                st.push(value);
+            }
+        }
+    }
+    
+    void pop() {
+        if(!st.empty()){
+            long long x=st.top();
+            st.pop();
+            if(x>mn){
+                return;
+            }else{
+                mn=2*mn-x;
+            }
+        }
+    }
+    
+    int top() {
+        if(!st.empty()){
+            long long x=st.top();
+            if(x>mn){
+                return x;
+            }
+            return mn;
+        }
+        return 0;
+    }
+    
+    int getMin() {
+        return mn;
+    }
 };
+
+
+
+
+
+
+// class MinStack {
+//      stack<pair<int, int>> st;
+// public:
+//     MinStack() {}
+
+//     void push(int value) {
+//         int m = value;
+//         if (!st.empty()) {
+//             m = min(value, st.top().second);
+//         }
+//         st.push({value, m});
+//     }
+
+//     void pop() { st.pop(); }
+
+//     int top() { return st.top().first; }
+
+//     int getMin() { return st.top().second; }
+// };
+
+
+
+
+
+
 
 /**
  * Your MinStack object will be instantiated and called as such:
