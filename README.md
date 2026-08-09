@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **65** | 2026-07-06 |
+| **66** | 2026-07-06 |
 
 ---
 
@@ -29,6 +29,7 @@
 | 35 | [Search Insert Position](solutions/0035-search-insert-position.md) | 🟢 Easy | 2026-08-08 | 01:07 pm |
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
+| 69 | [Sqrt(x)](solutions/0069-sqrtx.md) | 🟢 Easy | 2026-08-09 | 08:49 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
 | 79 | [Word Search](solutions/0079-word-search.md) | 🟡 Medium | 2026-08-07 | 05:21 am |
 | 88 | [Merge Sorted Array](solutions/0088-merge-sorted-array.md) | 🟢 Easy | 2026-07-31 | 04:04 am |
