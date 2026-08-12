@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **71** | 2026-07-06 |
+| **72** | 2026-07-06 |
 
 ---
 
@@ -78,6 +78,7 @@
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
+| 2958 | [Length of Longest Subarray With at Most K Frequency](solutions/2958-length-of-longest-subarray-with-at-most-k-frequency.md) | 🟡 Medium | 2026-08-12 | 11:39 pm |
 | 3014 | [Minimum Number of Pushes to Type Word I](solutions/3014-minimum-number-of-pushes-to-type-word-i.md) | 🟢 Easy | 2026-07-30 | 10:14 pm |
 | 3016 | [Minimum Number of Pushes to Type Word II](solutions/3016-minimum-number-of-pushes-to-type-word-ii.md) | 🟡 Medium | 2026-08-02 | 07:24 am |
 | 3345 | [Smallest Divisible Digit Product I](solutions/3345-smallest-divisible-digit-product-i.md) | 🟢 Easy | 2026-08-06 | 06:13 am |
