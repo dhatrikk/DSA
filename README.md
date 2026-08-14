@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **73** | 2026-07-06 |
+| **74** | 2026-07-06 |
 
 ---
 
@@ -82,6 +82,7 @@
 | 2958 | [Length of Longest Subarray With at Most K Frequency](solutions/2958-length-of-longest-subarray-with-at-most-k-frequency.md) | 🟡 Medium | 2026-08-12 | 11:39 pm |
 | 3014 | [Minimum Number of Pushes to Type Word I](solutions/3014-minimum-number-of-pushes-to-type-word-i.md) | 🟢 Easy | 2026-07-30 | 10:14 pm |
 | 3016 | [Minimum Number of Pushes to Type Word II](solutions/3016-minimum-number-of-pushes-to-type-word-ii.md) | 🟡 Medium | 2026-08-02 | 07:24 am |
+| 3090 | [Maximum Length Substring With Two Occurrences](solutions/3090-maximum-length-substring-with-two-occurrences.md) | 🟢 Easy | 2026-08-14 | 08:44 pm |
 | 3345 | [Smallest Divisible Digit Product I](solutions/3345-smallest-divisible-digit-product-i.md) | 🟢 Easy | 2026-08-06 | 06:13 am |
 | 3499 | [Maximize Active Section with Trade I](solutions/3499-maximize-active-section-with-trade-i.md) | 🟡 Medium | 2026-07-22 | 03:52 am |
 | 3517 | [Smallest Palindromic Rearrangement I](solutions/3517-smallest-palindromic-rearrangement-i.md) | 🟡 Medium | 2026-07-28 | 07:54 pm |
