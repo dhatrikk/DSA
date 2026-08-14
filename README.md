@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **75** | 2026-07-06 |
+| **76** | 2026-07-06 |
 
 ---
 
@@ -28,6 +28,7 @@
 | 20 | [Valid Parentheses](solutions/0020-valid-parentheses.md) | 🟢 Easy | 2026-08-09 | 10:16 am |
 | 34 | [Find First and Last Position of Element in Sorted Array](solutions/0034-find-first-and-last-position-of-element-in-sorted-array.md) | 🟡 Medium | 2026-08-08 | 02:33 pm |
 | 35 | [Search Insert Position](solutions/0035-search-insert-position.md) | 🟢 Easy | 2026-08-08 | 01:07 pm |
+| 38 | [Count and Say](solutions/0038-count-and-say.md) | 🟡 Medium | 2026-08-15 | 04:32 am |
 | 48 | [Rotate Image](solutions/0048-rotate-image.md) | 🟡 Medium | 2026-08-09 | 10:56 pm |
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
