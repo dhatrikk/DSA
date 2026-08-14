@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 10 August 2026 at 11:55 pm IST |
+| **Submitted** | 14 August 2026 at 11:51 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10 MB *(beats 51.7%)* |
+| **Memory** | 10.1 MB *(beats 53.2%)* |
 | **Topics** | `Stack` `Design` `Queue` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/implement-stack-using-queues/)
@@ -73,28 +73,29 @@ myStack.empty(); // return False
 
 ```cpp
 class MyStack {
-public:
     queue<int> q;
-
+    int s=0;
+public:
     MyStack() {
         
     }
     
     void push(int x) {
+        int n;
         q.push(x);
-
-        int n = q.size();
-        while(n > 1){
-            q.push(q.front());
+        for(int i=0;i<s;i++){
+            n=q.front();
             q.pop();
-            n--;
+            q.push(n);
         }
+        s++;
     }
     
     int pop() {
-        int x = q.front();
+        int n=q.front();
         q.pop();
-        return x;
+        s--;
+        return n;
     }
     
     int top() {
@@ -102,7 +103,16 @@ public:
     }
     
     bool empty() {
-        return q.empty();
+        return s==0;
     }
 };
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack* obj = new MyStack();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->top();
+ * bool param_4 = obj->empty();
+ */
 ```
