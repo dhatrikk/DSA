@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **77** | 2026-07-06 |
+| **78** | 2026-07-06 |
 
 ---
 
@@ -65,6 +65,7 @@
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-08-04 | 05:58 am |
 | 678 | [Valid Parenthesis String](solutions/0678-valid-parenthesis-string.md) | 🟡 Medium | 2026-08-07 | 03:08 am |
+| 686 | [Repeated String Match](solutions/0686-repeated-string-match.md) | 🟡 Medium | 2026-08-15 | 05:58 pm |
 | 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-08-08 | 12:50 pm |
 | 735 | [Asteroid Collision](solutions/0735-asteroid-collision.md) | 🟡 Medium | 2026-08-07 | 09:10 pm |
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
