@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **82** | 2026-07-06 |
+| **83** | 2026-07-06 |
 
 ---
 
@@ -75,6 +75,7 @@
 | 912 | [Sort an Array](solutions/0912-sort-an-array.md) | 🟡 Medium | 2026-08-04 | 08:30 pm |
 | 921 | [Minimum Add to Make Parentheses Valid](solutions/0921-minimum-add-to-make-parentheses-valid.md) | 🟡 Medium | 2026-08-07 | 04:27 am |
 | 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-07-26 | 03:48 am |
+| 1148 | [Article Views I](solutions/1148-article-views-i.md) | 🟢 Easy | 2026-08-20 | 10:18 pm |
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
 | 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
