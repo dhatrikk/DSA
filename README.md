@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **83** | 2026-07-06 |
+| **84** | 2026-07-06 |
 
 ---
 
@@ -83,6 +83,7 @@
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 1539 | [Kth Missing Positive Number](solutions/1539-kth-missing-positive-number.md) | 🟢 Easy | 2026-08-09 | 08:37 am |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
+| 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
