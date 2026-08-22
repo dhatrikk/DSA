@@ -4,8 +4,8 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | postgresql |
-| **Submitted** | 20 August 2026 at 10:09 pm IST |
-| **Runtime** | 282 ms *(beats 30.0%)* |
+| **Submitted** | 22 August 2026 at 11:00 pm IST |
+| **Runtime** | 262 ms *(beats 52.0%)* |
 | **Memory** | 0B *(beats 100.0%)* |
 | **Topics** | `Database` |
 
