@@ -63,7 +63,7 @@
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k.md) | 🟡 Medium | 2026-08-03 | 05:46 am |
-| 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-20 | 10:09 pm |
+| 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-22 | 11:00 pm |
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-08-04 | 05:58 am |
