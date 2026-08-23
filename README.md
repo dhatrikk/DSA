@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **87** | 2026-07-06 |
+| **88** | 2026-07-06 |
 
 ---
 
@@ -50,6 +50,7 @@
 | 162 | [Find Peak Element](solutions/0162-find-peak-element.md) | 🟡 Medium | 2026-08-08 | 04:01 pm |
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
+| 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 205 | [Isomorphic Strings](solutions/0205-isomorphic-strings.md) | 🟢 Easy | 2026-08-05 | 03:51 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
