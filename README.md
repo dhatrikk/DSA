@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **86** | 2026-07-06 |
+| **87** | 2026-07-06 |
 
 ---
 
@@ -84,6 +84,7 @@
 | 1406 | [Stone Game III](solutions/1406-stone-game-iii.md) | 🔴 Hard | 2026-08-04 | 04:28 am |
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 1539 | [Kth Missing Positive Number](solutions/1539-kth-missing-positive-number.md) | 🟢 Easy | 2026-08-09 | 08:37 am |
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](solutions/1581-customer-who-visited-but-did-not-make-any-transactions.md) | 🟢 Easy | 2026-08-23 | 10:32 pm |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
