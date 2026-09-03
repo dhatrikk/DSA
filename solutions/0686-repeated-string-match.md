@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 15 August 2026 at 05:58 pm IST |
-| **Runtime** | 4 ms *(beats 60.7%)* |
-| **Memory** | 9.6 MB *(beats 82.6%)* |
+| **Submitted** | 4 September 2026 at 03:08 am IST |
+| **Runtime** | 0 ms *(beats 100.0%)* |
+| **Memory** | 10.3 MB *(beats 26.2%)* |
 | **Topics** | `String` `String Matching` `Z Algorithm` `Knuth–Morris–Pratt Algorithm` `Boyer–Moore String-Search Algorithm` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/repeated-string-match/)
@@ -50,23 +50,72 @@ Given two strings `a` and `b`, return *the minimum number of times you should re
 
 ```cpp
 class Solution {
+    int mod = 1e9 + 7;
+
+    long long int pw(int x, int n){
+        if(n==1){
+            return x;
+        }
+        if(n==0){
+            return 1;
+        }
+        long long int k=pw(x,n/2);
+        if(n%2){
+            return (((k*k)%mod)*x)%mod;
+        }
+        return (k*k)%mod;
+    }
+    
+
+    bool ch(string a, string b, int& n, long long int& hash, int& base){
+        long long int power= pw(base,n-1);
+        long long int chash=0;
+        for(int i=0;i<n;i++){
+            chash*=base;
+            chash+=(b[i]-'a'+1);
+            chash%=mod;
+        }
+
+        for(int i=n;i<b.size();i++){
+            if(chash==hash){
+                if(a==b.substr(i-n,n)){
+                    return true;
+                }
+            }
+            chash= (chash - (b[i-n]-'a'+1)*power%mod +mod)%mod;
+            chash= (chash * base)%mod;
+            chash= (chash + (b[i]-'a'+1))%mod;
+        }
+        if(chash==hash){
+                if(a==b.substr(b.size()-n,n)){
+                    return true;
+                }
+            }
+        return false;
+    }
 public:
     int repeatedStringMatch(string a, string b) {
-        int cnt=0;
-        string ans="";
-        int na=a.size(), nb=b.size();
-        int an=0;
 
-        while(an<nb){
+        long long int hash=0;
+        int base=31;
+
+        for(char c:b){
+            hash= (hash * base)%mod;
+            hash= (hash + (c-'a'+1))%mod;
+        }
+
+        string ans="";
+        int cnt=0;
+        int n=b.size();
+        while(ans.size()<b.size()){
             ans+=a;
-            an+=na;
             cnt++;
         }
-        if(ans.find(b)!=string::npos){
+        if(ch(b, ans, n, hash, base)){
             return cnt;
         }
         ans+=a;
-        if(ans.find(b)!=string::npos){
+        if(ch(b, ans, n, hash, base)){
             return cnt+1;
         }
         return -1;
