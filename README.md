@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **90** | 2026-07-06 |
+| **91** | 2026-07-06 |
 
 ---
 
@@ -49,6 +49,7 @@
 | 154 | [Find Minimum in Rotated Sorted Array II](solutions/0154-find-minimum-in-rotated-sorted-array-ii.md) | 🔴 Hard | 2026-08-17 | 11:11 pm |
 | 155 | [Min Stack](solutions/0155-min-stack.md) | 🟡 Medium | 2026-08-09 | 04:16 pm |
 | 162 | [Find Peak Element](solutions/0162-find-peak-element.md) | 🟡 Medium | 2026-08-08 | 04:01 pm |
+| 167 | [Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted.md) | 🟡 Medium | 2026-09-21 | 02:46 am |
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
