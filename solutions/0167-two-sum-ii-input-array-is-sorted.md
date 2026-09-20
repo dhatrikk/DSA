@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 21 September 2026 at 02:46 am IST |
+| **Submitted** | 21 September 2026 at 02:56 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 25.9 MB *(beats 5.4%)* |
+| **Memory** | 25.6 MB *(beats 5.4%)* |
 | **Topics** | `Array` `Two Pointers` `Binary Search` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
@@ -73,19 +73,40 @@ Your solution must use only constant extra space.
 class Solution {
 public:
     vector<int> twoSum(vector<int>& num, int target) {
-        unordered_map<int,int> mp;
-        mp[num[0]]=0;
-        int n=num.size();
-        int req;
-        for(int i=1;i<n;i++){
-            req=target-num[i];
-            auto it=mp.find(req);
-            if(it!=mp.end()){
-                return {1+it->second, 1+i};
+        int l=0;
+        int r=num.size()-1;
+        int sum;
+        while(l<r){
+            sum=num[l]+num[r];
+            if(sum==target){
+                return {l+1, r+1};
+            }else if(sum<target){
+                l++;
+            }else{
+                r--;
             }
-            mp[num[i]]=i;
         }
         return {-1,-1};
     }
 };
+
+
+// class Solution {
+// public:
+//     vector<int> twoSum(vector<int>& num, int target) {
+//         unordered_map<int,int> mp;
+//         mp[num[0]]=0;
+//         int n=num.size();
+//         int req;
+//         for(int i=1;i<n;i++){
+//             req=target-num[i];
+//             auto it=mp.find(req);
+//             if(it!=mp.end()){
+//                 return {1+it->second, 1+i};
+//             }
+//             mp[num[i]]=i;
+//         }
+//         return {-1,-1};
+//     }
+// };
 ```
