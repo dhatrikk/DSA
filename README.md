@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **92** | 2026-07-06 |
+| **93** | 2026-07-06 |
 
 ---
 
@@ -37,6 +37,7 @@
 | 69 | [Sqrt(x)](solutions/0069-sqrtx.md) | 🟢 Easy | 2026-08-09 | 08:49 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
 | 79 | [Word Search](solutions/0079-word-search.md) | 🟡 Medium | 2026-08-07 | 05:21 am |
+| 80 | [Remove Duplicates from Sorted Array II](solutions/0080-remove-duplicates-from-sorted-array-ii.md) | 🟡 Medium | 2026-09-21 | 03:25 am |
 | 83 | [Remove Duplicates from Sorted List](solutions/0083-remove-duplicates-from-sorted-list.md) | 🟢 Easy | 2026-09-21 | 02:36 am |
 | 88 | [Merge Sorted Array](solutions/0088-merge-sorted-array.md) | 🟢 Easy | 2026-07-31 | 04:04 am |
 | 94 | [Binary Tree Inorder Traversal](solutions/0094-binary-tree-inorder-traversal.md) | 🟢 Easy | 2026-07-20 | 03:18 pm |
