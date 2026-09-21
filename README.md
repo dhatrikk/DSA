@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **100** | 2026-07-06 |
+| **101** | 2026-07-06 |
 
 ---
 
@@ -24,6 +24,7 @@
 | 13 | [Roman to Integer](solutions/0013-roman-to-integer.md) | 🟢 Easy | 2026-08-06 | 03:58 am |
 | 14 | [Longest Common Prefix](solutions/0014-longest-common-prefix.md) | 🟢 Easy | 2026-08-05 | 02:58 pm |
 | 15 | [3Sum](solutions/0015-3sum.md) | 🟡 Medium | 2026-08-01 | 08:44 am |
+| 17 | [Letter Combinations of a Phone Number](solutions/0017-letter-combinations-of-a-phone-number.md) | 🟡 Medium | 2026-09-22 | 02:06 am |
 | 18 | [4Sum](solutions/0018-4sum.md) | 🟡 Medium | 2026-08-02 | 01:16 am |
 | 20 | [Valid Parentheses](solutions/0020-valid-parentheses.md) | 🟢 Easy | 2026-08-09 | 10:16 am |
 | 22 | [Generate Parentheses](solutions/0022-generate-parentheses.md) | 🟡 Medium | 2026-09-22 | 01:50 am |
