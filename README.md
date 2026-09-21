@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **97** | 2026-07-06 |
+| **98** | 2026-07-06 |
 
 ---
 
@@ -44,6 +44,7 @@
 | 118 | [Pascal's Triangle](solutions/0118-pascals-triangle.md) | 🟢 Easy | 2026-07-29 | 11:18 pm |
 | 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock.md) | 🟢 Easy | 2026-07-28 | 08:03 pm |
 | 128 | [Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence.md) | 🟡 Medium | 2026-08-09 | 06:04 pm |
+| 130 | [Surrounded Regions](solutions/0130-surrounded-regions.md) | 🟡 Medium | 2026-09-22 | 01:10 am |
 | 144 | [Binary Tree Preorder Traversal](solutions/0144-binary-tree-preorder-traversal.md) | 🟢 Easy | 2026-07-11 | 09:18 am |
 | 145 | [Binary Tree Postorder Traversal](solutions/0145-binary-tree-postorder-traversal.md) | 🟢 Easy | 2026-07-23 | 02:51 pm |
 | 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray.md) | 🟡 Medium | 2026-08-03 | 05:10 am |
