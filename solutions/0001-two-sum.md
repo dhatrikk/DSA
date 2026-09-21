@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 6 July 2026 at 04:45 pm IST |
-| **Runtime** | 3 ms *(beats 66.8%)* |
-| **Memory** | 14.9 MB *(beats 19.1%)* |
+| **Submitted** | 21 September 2026 at 04:31 pm IST |
+| **Runtime** | 0 ms *(beats 100.0%)* |
+| **Memory** | 14.9 MB *(beats 28.9%)* |
 | **Topics** | `Array` `Hash Table` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/two-sum/)
@@ -15,7 +15,7 @@
 
 ## 📋 Problem Description
 
-Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
+You are given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
 
 You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
 
@@ -60,18 +60,17 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> mp;
-        int n = nums.size();
+        int n=nums.size();
+        int req;
 
         for(int i=0;i<n;i++){
-            if(mp.size()){
-                auto it=mp.find(target-nums[i]);
+            req=target-nums[i];
+            auto it=mp.find(req);
             if(it!=mp.end()){
-                return {i,it->second};
-            }
+                return {it->second, i};
             }
             mp[nums[i]]=i;
         }
-        
         return {-1,-1};
     }
 };
