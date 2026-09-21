@@ -4,8 +4,8 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 21 September 2026 at 03:25 am IST |
-| **Runtime** | 9 ms *(beats 49.1%)* |
+| **Submitted** | 21 September 2026 at 03:19 pm IST |
+| **Runtime** | 14 ms *(beats 17.0%)* |
 | **Memory** | 19.6 MB *(beats 23.6%)* |
 | **Topics** | `Array` `Two Pointers` |
 
@@ -80,9 +80,11 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int ind=0;
-        for(int x:nums){
-            if(ind<2 || nums[ind-2]!=x){
-                nums[ind]=x;
+        int n=nums.size();
+
+        for(int i=0;i<n;i++){
+            if(ind<2 || nums[i]!=nums[ind-2]){
+                nums[ind]=nums[i];
                 ind++;
             }
         }
