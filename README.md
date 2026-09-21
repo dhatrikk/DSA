@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **94** | 2026-07-06 |
+| **95** | 2026-07-06 |
 
 ---
 
@@ -56,6 +56,7 @@
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
+| 200 | [Number of Islands](solutions/0200-number-of-islands.md) | 🟡 Medium | 2026-09-21 | 04:04 pm |
 | 205 | [Isomorphic Strings](solutions/0205-isomorphic-strings.md) | 🟢 Easy | 2026-08-05 | 03:51 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 225 | [Implement Stack using Queues](solutions/0225-implement-stack-using-queues.md) | 🟢 Easy | 2026-08-14 | 11:51 pm |
