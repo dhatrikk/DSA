@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 21 September 2026 at 08:17 pm IST |
+| **Submitted** | 21 September 2026 at 08:18 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 16.8 MB *(beats 68.7%)* |
 | **Topics** | `Array` `Breadth-First Search` `Matrix` |
