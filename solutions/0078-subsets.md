@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 22 September 2026 at 01:18 am IST |
+| **Submitted** | 22 September 2026 at 01:20 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 15.8 MB *(beats 7.6%)* |
+| **Memory** | 9.9 MB *(beats 60.0%)* |
 | **Topics** | `Array` `Backtracking` `Bit Manipulation` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/subsets/)
@@ -51,21 +51,23 @@ The solution set **must not** contain duplicate subsets. Return the solution in 
 
 ```cpp
 class Solution {
-    void f(vector<int>& nums, int i, vector<vector<int>>& ans, int n, vector<int> curr){
+    void f(vector<int>& nums, int i, vector<vector<int>>& ans, int n, vector<int>& curr){
         if(i==n){
             ans.push_back(curr);
             return;
         }
 
-        f(nums, i+1, ans, n, curr);
         curr.push_back(nums[i]);
+        f(nums, i+1, ans, n, curr);
+        curr.pop_back();
         f(nums, i+1, ans, n, curr);
     }
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         int n=nums.size();
-        f(nums, 0, ans, n, {});
+        vector<int> curr;
+        f(nums, 0, ans, n, curr);
         return ans;
     }
 };
