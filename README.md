@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **98** | 2026-07-06 |
+| **99** | 2026-07-06 |
 
 ---
 
@@ -36,6 +36,7 @@
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
 | 69 | [Sqrt(x)](solutions/0069-sqrtx.md) | 🟢 Easy | 2026-08-09 | 08:49 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
+| 78 | [Subsets](solutions/0078-subsets.md) | 🟡 Medium | 2026-09-22 | 01:18 am |
 | 79 | [Word Search](solutions/0079-word-search.md) | 🟡 Medium | 2026-08-07 | 05:21 am |
 | 80 | [Remove Duplicates from Sorted Array II](solutions/0080-remove-duplicates-from-sorted-array-ii.md) | 🟡 Medium | 2026-09-21 | 03:19 pm |
 | 83 | [Remove Duplicates from Sorted List](solutions/0083-remove-duplicates-from-sorted-list.md) | 🟢 Easy | 2026-09-21 | 02:36 am |
