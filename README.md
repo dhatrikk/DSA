@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **96** | 2026-07-06 |
+| **97** | 2026-07-06 |
 
 ---
 
@@ -68,6 +68,7 @@
 | 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
+| 542 | [01 Matrix](solutions/0542-01-matrix.md) | 🟡 Medium | 2026-09-21 | 08:29 pm |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k.md) | 🟡 Medium | 2026-08-03 | 05:46 am |
 | 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-22 | 11:00 pm |
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
