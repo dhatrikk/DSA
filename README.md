@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **106** | 2026-07-06 |
+| **107** | 2026-07-06 |
 
 ---
 
@@ -88,6 +88,7 @@
 | 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-08-08 | 12:50 pm |
 | 733 | [Flood Fill](solutions/0733-flood-fill.md) | 🟢 Easy | 2026-09-21 | 03:52 pm |
 | 735 | [Asteroid Collision](solutions/0735-asteroid-collision.md) | 🟡 Medium | 2026-08-07 | 09:10 pm |
+| 785 | [Is Graph Bipartite?](solutions/0785-is-graph-bipartite.md) | 🟡 Medium | 2026-09-22 | 07:52 pm |
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
 | 912 | [Sort an Array](solutions/0912-sort-an-array.md) | 🟡 Medium | 2026-08-04 | 08:30 pm |
 | 921 | [Minimum Add to Make Parentheses Valid](solutions/0921-minimum-add-to-make-parentheses-valid.md) | 🟡 Medium | 2026-08-07 | 04:27 am |
