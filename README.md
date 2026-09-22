@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **105** | 2026-07-06 |
+| **106** | 2026-07-06 |
 
 ---
 
@@ -64,6 +64,7 @@
 | 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 200 | [Number of Islands](solutions/0200-number-of-islands.md) | 🟡 Medium | 2026-09-21 | 04:04 pm |
+| 204 | [Count Primes](solutions/0204-count-primes.md) | 🟡 Medium | 2026-09-22 | 07:21 pm |
 | 205 | [Isomorphic Strings](solutions/0205-isomorphic-strings.md) | 🟢 Easy | 2026-08-05 | 03:51 pm |
 | 207 | [Course Schedule](solutions/0207-course-schedule.md) | 🟡 Medium | 2026-09-22 | 03:44 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
