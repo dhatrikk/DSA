@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 7 August 2026 at 05:21 am IST |
-| **Runtime** | 184 ms *(beats 91.4%)* |
-| **Memory** | 10.3 MB *(beats 99.5%)* |
+| **Submitted** | 22 September 2026 at 02:18 pm IST |
+| **Runtime** | 215 ms *(beats 64.3%)* |
+| **Memory** | 10.5 MB *(beats 65.0%)* |
 | **Topics** | `Array` `String` `Backtracking` `Depth-First Search` `Matrix` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/word-search/)
@@ -66,40 +66,35 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 
 ```cpp
 class Solution {
-    bool f(vector<vector<char>>& board, int x, int y, string& word, int j) {
-        if (j == word.size()) {
+    bool f(vector<vector<char>>& board, string& word, int i, int x, int y, vector<int>& dx, int r, int c){
+        if(i==word.size()){
             return true;
         }
-        char c;
-        int dx[4] = {1, -1, 0, 0};
-        for (int i = 0; i < 4; i++) {
-            int nx = x + dx[i], ny = y + dx[3 - i];
-            if (nx >= 0 && ny >= 0 && nx < board.size() && ny < board[0].size() && board[nx][ny] == word[j]) {
-                    c=board[nx][ny];
-                    board[nx][ny]='*';
-                if (f(board, nx, ny, word, j + 1)) {
+        int xx, yy;
+        char ch=board[x][y];
+        board[x][y]='/';
+        for(int j=0;j<4;j++){
+            xx=x+dx[j];
+            yy=y+dx[3-j];
+            if(xx>=0 && yy>=0 && xx<r && yy<c && board[xx][yy]==word[i]){
+                if(f(board, word, i+1, xx, yy, dx, r, c)){
                     return true;
                 }
-                board[nx][ny]=c;
             }
         }
+        board[x][y]=ch;
         return false;
     }
-
 public:
     bool exist(vector<vector<char>>& board, string word) {
-        int r = board.size();
-        int c = board[0].size();
-        char ch;
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                if (word[0] == board[i][j]) {
-                    ch=board[i][j];
-                    board[i][j]='*';
-                    if (f(board, i, j, word, 1)) {
+        int r=board.size(), c=board[0].size();
+        vector<int> dx= {1,-1,0,0};
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                if(board[i][j]==word[0]){
+                    if(f(board, word, 1, i, j, dx, r, c)){
                         return true;
                     }
-                    board[i][j]=ch;
                 }
             }
         }
