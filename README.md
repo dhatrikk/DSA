@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **104** | 2026-07-06 |
+| **105** | 2026-07-06 |
 
 ---
 
@@ -65,6 +65,7 @@
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 200 | [Number of Islands](solutions/0200-number-of-islands.md) | 🟡 Medium | 2026-09-21 | 04:04 pm |
 | 205 | [Isomorphic Strings](solutions/0205-isomorphic-strings.md) | 🟢 Easy | 2026-08-05 | 03:51 pm |
+| 207 | [Course Schedule](solutions/0207-course-schedule.md) | 🟡 Medium | 2026-09-22 | 03:44 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 225 | [Implement Stack using Queues](solutions/0225-implement-stack-using-queues.md) | 🟢 Easy | 2026-08-14 | 11:51 pm |
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-07-31 | 03:39 am |
