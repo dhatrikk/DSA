@@ -4,10 +4,10 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 31 July 2026 at 03:39 am IST |
+| **Submitted** | 26 September 2026 at 12:48 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 23.7 MB *(beats 46.4%)* |
-| **Topics** | `Array` `Hash Table` `Sorting` `Counting` |
+| **Memory** | 23.9 MB *(beats 55.2%)* |
+| **Topics** | `Array` `Hash Table` `Sorting` `Counting` `Boyer–Moore Majority Vote Algorithm` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/majority-element-ii/)
 
@@ -60,77 +60,47 @@ Given an integer array of size `n`, find all elements that appear more than `&lf
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        int one=INT_MAX, two=INT_MAX, cnt1=0, cnt2=0;
+        int cnt1 = 0, cnt2 = 0;
+        int n = nums.size();
+        int num1 =nums[0], num2=0;
 
-        for(int i:nums){
-            if(i==one){
+        for (int i : nums) {
+            if (i == num1 || (cnt1==0 && i!=num2)) {
+                if(cnt1==0 && i!=num2){
+                    cnt1=0;
+                    num1=i;
+                }
                 cnt1++;
-            }else if(i==two){
+            } else if (i == num2 || (cnt2==0 && i!=num1)) {
+                if(cnt2==0 && i!=num1){
+                    cnt2=0;
+                    num2=i;
+                }
                 cnt2++;
-            }else if(cnt1==0 && i!=two){
-                one=i;
-                cnt1=1;
-            }else if(cnt2==0 && i!=one){
-                two=i;
-                cnt2=1;
-            }else{
+            } else {
                 cnt1--;
                 cnt2--;
-            }
+            }            
         }
-        cnt1=0, cnt2=0;
 
-        for(int i:nums){
-            if(i==one){
+        cnt1 = 0, cnt2 = 0;
+        for (int i : nums) {
+            if (i == num1) {
                 cnt1++;
-            }
-            if(i==two){
+            } else if (i == num2) {
                 cnt2++;
             }
         }
-        int n=nums.size();
-
-        if(cnt1>n/3 && cnt2>n/3){
-            return {one, two};
-        }
-        if(cnt1>n/3){
-            return {one};
-        }
-        if(cnt2>n/3){
-            return {two};
+        if (cnt1 > n / 3 && cnt2 > n / 3) {
+            return {num1, num2};
+        } else if (cnt1 > n / 3) {
+            return {num1};
+        } else if (cnt2 > n / 3) {
+            return {num2};
         }
         return {};
-
     }
 };
-
-
-// class Solution {
-// public:
-//     vector<int> majorityElement(vector<int>& nums) {
-//         int n = nums.size();
-//         vector<int> ans;
-//         sort(nums.begin(), nums.end());
-//         int cnt = 0, num = nums[0];
-
-//         for (int i : nums) {
-//             if (i == num) {
-//                 cnt++;
-//             } else {
-//                 if (cnt > n / 3) {
-//                     ans.push_back(num);
-//                 }
-//                 num = i;
-//                 cnt = 1;
-//             }
-//         }
-//         if (cnt > n / 3) {
-//             ans.push_back(num);
-//         }
-
-//         return ans;
-//     }
-// };
 ```
 
 ---
