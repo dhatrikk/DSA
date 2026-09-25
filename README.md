@@ -85,7 +85,7 @@
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-08-04 | 05:58 am |
-| 678 | [Valid Parenthesis String](solutions/0678-valid-parenthesis-string.md) | 🟡 Medium | 2026-08-07 | 03:08 am |
+| 678 | [Valid Parenthesis String](solutions/0678-valid-parenthesis-string.md) | 🟡 Medium | 2026-09-25 | 07:48 am |
 | 684 | [Redundant Connection](solutions/0684-redundant-connection.md) | 🟡 Medium | 2026-09-24 | 07:18 pm |
 | 686 | [Repeated String Match](solutions/0686-repeated-string-match.md) | 🟡 Medium | 2026-09-04 | 03:08 am |
 | 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-08-08 | 12:50 pm |
