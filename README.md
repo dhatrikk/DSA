@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **111** | 2026-07-06 |
+| **112** | 2026-07-06 |
 
 ---
 
@@ -78,6 +78,7 @@
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency.md) | 🟡 Medium | 2026-08-05 | 04:37 pm |
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
 | 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
+| 503 | [Next Greater Element II](solutions/0503-next-greater-element-ii.md) | 🟡 Medium | 2026-09-26 | 06:22 am |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
 | 542 | [01 Matrix](solutions/0542-01-matrix.md) | 🟡 Medium | 2026-09-21 | 08:29 pm |
