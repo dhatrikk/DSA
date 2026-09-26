@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **112** | 2026-07-06 |
+| **113** | 2026-07-06 |
 
 ---
 
@@ -73,6 +73,7 @@
 | 210 | [Course Schedule II](solutions/0210-course-schedule-ii.md) | 🟡 Medium | 2026-09-24 | 10:10 pm |
 | 225 | [Implement Stack using Queues](solutions/0225-implement-stack-using-queues.md) | 🟢 Easy | 2026-08-14 | 11:51 pm |
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-09-26 | 12:48 am |
+| 230 | [Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 02:06 am |
 | 232 | [Implement Queue using Stacks](solutions/0232-implement-queue-using-stacks.md) | 🟢 Easy | 2026-08-15 | 12:05 am |
 | 237 | [Delete Node in a Linked List](solutions/0237-delete-node-in-a-linked-list.md) | 🟡 Medium | 2026-08-13 | 10:37 pm |
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency.md) | 🟡 Medium | 2026-08-05 | 04:37 pm |
