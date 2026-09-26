@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **113** | 2026-07-06 |
+| **114** | 2026-07-06 |
 
 ---
 
@@ -49,6 +49,7 @@
 | 88 | [Merge Sorted Array](solutions/0088-merge-sorted-array.md) | 🟢 Easy | 2026-07-31 | 04:04 am |
 | 90 | [Subsets II](solutions/0090-subsets-ii.md) | 🟡 Medium | 2026-09-22 | 01:52 pm |
 | 94 | [Binary Tree Inorder Traversal](solutions/0094-binary-tree-inorder-traversal.md) | 🟢 Easy | 2026-07-20 | 03:18 pm |
+| 98 | [Validate Binary Search Tree](solutions/0098-validate-binary-search-tree.md) | 🟡 Medium | 2026-09-27 | 02:53 am |
 | 118 | [Pascal's Triangle](solutions/0118-pascals-triangle.md) | 🟢 Easy | 2026-07-29 | 11:18 pm |
 | 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock.md) | 🟢 Easy | 2026-07-28 | 08:03 pm |
 | 128 | [Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence.md) | 🟡 Medium | 2026-08-09 | 06:04 pm |
