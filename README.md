@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **118** | 2026-07-06 |
+| **119** | 2026-07-06 |
 
 ---
 
@@ -97,6 +97,7 @@
 | 684 | [Redundant Connection](solutions/0684-redundant-connection.md) | 🟡 Medium | 2026-09-24 | 07:18 pm |
 | 686 | [Repeated String Match](solutions/0686-repeated-string-match.md) | 🟡 Medium | 2026-09-04 | 03:08 am |
 | 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-08-08 | 12:50 pm |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee](solutions/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.md) | 🟡 Medium | 2026-09-28 | 02:31 am |
 | 733 | [Flood Fill](solutions/0733-flood-fill.md) | 🟢 Easy | 2026-09-21 | 03:52 pm |
 | 735 | [Asteroid Collision](solutions/0735-asteroid-collision.md) | 🟡 Medium | 2026-08-07 | 09:10 pm |
 | 785 | [Is Graph Bipartite?](solutions/0785-is-graph-bipartite.md) | 🟡 Medium | 2026-09-22 | 07:52 pm |
