@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **117** | 2026-07-06 |
+| **118** | 2026-07-06 |
 
 ---
 
@@ -39,6 +39,7 @@
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray.md) | 🟡 Medium | 2026-07-29 | 03:47 am |
 | 55 | [Jump Game](solutions/0055-jump-game.md) | 🟡 Medium | 2026-09-25 | 09:09 am |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals.md) | 🟡 Medium | 2026-07-31 | 05:47 am |
+| 63 | [Unique Paths II](solutions/0063-unique-paths-ii.md) | 🟡 Medium | 2026-09-27 | 10:09 pm |
 | 69 | [Sqrt(x)](solutions/0069-sqrtx.md) | 🟢 Easy | 2026-08-09 | 08:49 am |
 | 73 | [Set Matrix Zeroes](solutions/0073-set-matrix-zeroes.md) | 🟡 Medium | 2026-07-29 | 03:42 am |
 | 75 | [Sort Colors](solutions/0075-sort-colors.md) | 🟡 Medium | 2026-09-25 | 03:08 am |
