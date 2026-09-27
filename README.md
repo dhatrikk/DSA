@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **116** | 2026-07-06 |
+| **117** | 2026-07-06 |
 
 ---
 
@@ -73,6 +73,7 @@
 | 207 | [Course Schedule](solutions/0207-course-schedule.md) | 🟡 Medium | 2026-09-22 | 03:44 pm |
 | 209 | [Minimum Size Subarray Sum](solutions/0209-minimum-size-subarray-sum.md) | 🟡 Medium | 2026-07-27 | 04:30 pm |
 | 210 | [Course Schedule II](solutions/0210-course-schedule-ii.md) | 🟡 Medium | 2026-09-24 | 10:10 pm |
+| 213 | [House Robber II](solutions/0213-house-robber-ii.md) | 🟡 Medium | 2026-09-27 | 08:18 pm |
 | 225 | [Implement Stack using Queues](solutions/0225-implement-stack-using-queues.md) | 🟢 Easy | 2026-08-14 | 11:51 pm |
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-09-26 | 12:48 am |
 | 230 | [Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 02:06 am |
