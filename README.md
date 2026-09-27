@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **114** | 2026-07-06 |
+| **115** | 2026-07-06 |
 
 ---
 
@@ -77,6 +77,7 @@
 | 230 | [Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 02:06 am |
 | 232 | [Implement Queue using Stacks](solutions/0232-implement-queue-using-stacks.md) | 🟢 Easy | 2026-08-15 | 12:05 am |
 | 237 | [Delete Node in a Linked List](solutions/0237-delete-node-in-a-linked-list.md) | 🟡 Medium | 2026-08-13 | 10:37 pm |
+| 450 | [Delete Node in a BST](solutions/0450-delete-node-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 08:02 pm |
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency.md) | 🟡 Medium | 2026-08-05 | 04:37 pm |
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
 | 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
