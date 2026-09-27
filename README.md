@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **115** | 2026-07-06 |
+| **116** | 2026-07-06 |
 
 ---
 
@@ -65,6 +65,7 @@
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
+| 198 | [House Robber](solutions/0198-house-robber.md) | 🟡 Medium | 2026-09-27 | 08:09 pm |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view.md) | 🟡 Medium | 2026-07-25 | 04:30 pm |
 | 200 | [Number of Islands](solutions/0200-number-of-islands.md) | 🟡 Medium | 2026-09-21 | 04:04 pm |
 | 204 | [Count Primes](solutions/0204-count-primes.md) | 🟡 Medium | 2026-09-22 | 07:21 pm |
