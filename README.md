@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **120** | 2026-07-06 |
+| **121** | 2026-07-06 |
 
 ---
 
@@ -64,6 +64,7 @@
 | 162 | [Find Peak Element](solutions/0162-find-peak-element.md) | 🟡 Medium | 2026-08-08 | 04:01 pm |
 | 167 | [Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted.md) | 🟡 Medium | 2026-09-21 | 02:56 am |
 | 169 | [Majority Element](solutions/0169-majority-element.md) | 🟢 Easy | 2026-07-28 | 03:55 am |
+| 188 | [Best Time to Buy and Sell Stock IV](solutions/0188-best-time-to-buy-and-sell-stock-iv.md) | 🔴 Hard | 2026-09-29 | 02:33 am |
 | 189 | [Rotate Array](solutions/0189-rotate-array.md) | 🟡 Medium | 2026-07-28 | 03:24 am |
 | 197 | [Rising Temperature](solutions/0197-rising-temperature.md) | 🟢 Easy | 2026-08-23 | 10:44 pm |
 | 198 | [House Robber](solutions/0198-house-robber.md) | 🟡 Medium | 2026-09-27 | 08:09 pm |
