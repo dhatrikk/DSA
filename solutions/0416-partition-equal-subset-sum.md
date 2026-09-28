@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 28 September 2026 at 09:57 pm IST |
+| **Submitted** | 28 September 2026 at 10:34 pm IST |
 | **Runtime** | 75 ms *(beats 84.3%)* |
 | **Memory** | 15.7 MB *(beats 73.7%)* |
 | **Topics** | `Array` `Dynamic Programming` `Knapsack Problem` `0-1 Knapsack` |
