@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **122** | 2026-07-06 |
+| **123** | 2026-07-06 |
 
 ---
 
@@ -110,6 +110,7 @@
 | 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-07-26 | 03:48 am |
 | 994 | [Rotting Oranges](solutions/0994-rotting-oranges.md) | 🟡 Medium | 2026-09-21 | 08:18 pm |
 | 1068 | [Product Sales Analysis I](solutions/1068-product-sales-analysis-i.md) | 🟢 Easy | 2026-08-23 | 10:25 pm |
+| 1143 | [Longest Common Subsequence](solutions/1143-longest-common-subsequence.md) | 🟡 Medium | 2026-09-29 | 08:16 am |
 | 1148 | [Article Views I](solutions/1148-article-views-i.md) | 🟢 Easy | 2026-08-20 | 10:18 pm |
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
