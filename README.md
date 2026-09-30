@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **125** | 2026-07-06 |
+| **126** | 2026-07-06 |
 
 ---
 
@@ -88,6 +88,7 @@
 | 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
 | 494 | [Target Sum](solutions/0494-target-sum.md) | 🟡 Medium | 2026-09-29 | 06:29 am |
 | 503 | [Next Greater Element II](solutions/0503-next-greater-element-ii.md) | 🟡 Medium | 2026-09-26 | 06:22 am |
+| 516 | [Longest Palindromic Subsequence](solutions/0516-longest-palindromic-subsequence.md) | 🟡 Medium | 2026-09-30 | 11:33 am |
 | 518 | [Coin Change II](solutions/0518-coin-change-ii.md) | 🟡 Medium | 2026-09-30 | 10:55 am |
 | 525 | [Contiguous Array](solutions/0525-contiguous-array.md) | 🟡 Medium | 2026-07-31 | 02:57 am |
 | 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
