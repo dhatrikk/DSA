@@ -5,7 +5,7 @@
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
 | **Submitted** | 30 September 2026 at 09:01 pm IST |
-| **Runtime** | 194 ms *(beats 35.7%)* |
+| **Runtime** | 183 ms *(beats 35.8%)* |
 | **Memory** | 14.4 MB *(beats 48.0%)* |
 | **Topics** | `Array` `Binary Search` `Dynamic Programming` `Longest Increasing Subsequence` |
 
@@ -63,7 +63,7 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         int n=nums.size();
         vector<int> dp(n+1,0);
-        int take, notake;
+        int take;
 
         for(int i=1;i<=n;i++){
             for(int p=n;p>0;p--){
@@ -71,8 +71,7 @@ public:
                 if(p==n || nums[p]>nums[i-1]){
                     take=1+dp[i-1];
                 }
-                notake=dp[p];
-                dp[p]=max(take, notake);
+                dp[p]=max(take, dp[p]);
             }
         }
         return dp[n];
