@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **129** | 2026-07-06 |
+| **130** | 2026-07-06 |
 
 ---
 
@@ -54,6 +54,7 @@
 | 113 | [Path Sum II](solutions/0113-path-sum-ii.md) | 🟡 Medium | 2026-09-30 | 10:42 pm |
 | 118 | [Pascal's Triangle](solutions/0118-pascals-triangle.md) | 🟢 Easy | 2026-07-29 | 11:18 pm |
 | 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock.md) | 🟢 Easy | 2026-07-28 | 08:03 pm |
+| 126 | [Word Ladder II](solutions/0126-word-ladder-ii.md) | 🔴 Hard | 2026-10-03 | 10:18 am |
 | 127 | [Word Ladder](solutions/0127-word-ladder.md) | 🔴 Hard | 2026-10-03 | 06:06 am |
 | 128 | [Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence.md) | 🟡 Medium | 2026-08-09 | 06:04 pm |
 | 130 | [Surrounded Regions](solutions/0130-surrounded-regions.md) | 🟡 Medium | 2026-09-22 | 01:10 am |
