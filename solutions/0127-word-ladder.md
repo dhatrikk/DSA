@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 2 October 2026 at 09:24 pm IST |
-| **Runtime** | 43 ms *(beats 90.6%)* |
-| **Memory** | 21.3 MB *(beats 55.2%)* |
+| **Submitted** | 3 October 2026 at 06:06 am IST |
+| **Runtime** | 51 ms *(beats 73.5%)* |
+| **Memory** | 21.1 MB *(beats 70.1%)* |
 | **Topics** | `Hash Table` `String` `Breadth-First Search` `Bidirectional Search` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/word-ladder/)
