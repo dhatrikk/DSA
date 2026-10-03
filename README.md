@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **131** | 2026-07-06 |
+| **132** | 2026-07-06 |
 
 ---
 
@@ -83,6 +83,7 @@
 | 229 | [Majority Element II](solutions/0229-majority-element-ii.md) | 🟡 Medium | 2026-09-26 | 12:48 am |
 | 230 | [Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 02:06 am |
 | 232 | [Implement Queue using Stacks](solutions/0232-implement-queue-using-stacks.md) | 🟢 Easy | 2026-08-15 | 12:05 am |
+| 236 | [Lowest Common Ancestor of a Binary Tree](solutions/0236-lowest-common-ancestor-of-a-binary-tree.md) | 🟡 Medium | 2026-10-03 | 10:02 pm |
 | 237 | [Delete Node in a Linked List](solutions/0237-delete-node-in-a-linked-list.md) | 🟡 Medium | 2026-08-13 | 10:37 pm |
 | 300 | [Longest Increasing Subsequence](solutions/0300-longest-increasing-subsequence.md) | 🟡 Medium | 2026-09-30 | 09:01 pm |
 | 416 | [Partition Equal Subset Sum](solutions/0416-partition-equal-subset-sum.md) | 🟡 Medium | 2026-09-28 | 10:34 pm |
