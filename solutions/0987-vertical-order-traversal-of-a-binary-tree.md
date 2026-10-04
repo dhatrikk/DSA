@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 26 July 2026 at 03:48 am IST |
+| **Submitted** | 4 October 2026 at 02:46 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 15.2 MB *(beats 97.9%)* |
+| **Memory** | 15.5 MB *(beats 85.4%)* |
 | **Topics** | `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search` `Sorting` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
@@ -83,44 +83,58 @@ Note that the solution remains the same since 5 and 6 are in the same location a
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        if(!root){
+        if (!root) {
             return {};
         }
-        int xmn=0, xmx=0;
-        multiset<pair<pair<int,int>, int>> ss;
-        queue<pair<pair<int,int>, TreeNode*>> q;
-        q.push({{0,0}, root});
+        queue<pair<TreeNode*, pair<int, int>>> q;
+        q.push({root, {0, 0}});
 
-        while(!q.empty()){
-            auto it=q.front();
-            q.pop();
+        map < pair < int, int >, vector < int >> mp;
 
-            TreeNode* node=it.second;
-            int x= it.first.first, y=it.first.second;
-            xmx=max(xmx,x);
-            xmn=min(xmn,x);
+        TreeNode* node;
+        int x, y, s;
 
-            ss.insert({{x,y},node->val});
-            if(node->left){
-                q.push({{x-1,y+1},node->left});
-            }
-            if(node->right){
-                q.push({{x+1,y+1},node->right});
+        while (!q.empty()) {
+            s = q.size();
+            for (int i = 0; i< s; i++) {
+                node = q.front().first;
+                x=q.front().second.first;
+                y=q.front().second.second;
+                mp[{x,y}].push_back(node->val);
+                q.pop();
+                if(node->left){
+                    q.push({node->left,{x-1,y+1}});
+                }
+                if(node->right){
+                    q.push({node->right,{x+1, y+1}});
+                }
             }
         }
-
-        vector<vector<int>> ans(xmx-xmn+1);
-
-        for(auto it:ss){
-            ans[it.first.first-xmn].push_back(it.second);
+        vector<vector<int>> ans;
+        int h=100;
+        int i=-1;
+        for(auto it:mp){
+            if(it.first.first!=h){
+                h=it.first.first;
+                ans.push_back({});
+                i++;
+            }
+            if(it.second.size()>1){
+                sort(it.second.begin(), it.second.end());
+                for(int k:it.second){
+                    ans[i].push_back(k);
+                }
+            }else{
+                ans[i].push_back(it.second[0]);
+            }
         }
-
         return ans;
     }
 };
