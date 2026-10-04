@@ -116,7 +116,7 @@
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
 | 912 | [Sort an Array](solutions/0912-sort-an-array.md) | 🟡 Medium | 2026-08-04 | 08:30 pm |
 | 921 | [Minimum Add to Make Parentheses Valid](solutions/0921-minimum-add-to-make-parentheses-valid.md) | 🟡 Medium | 2026-08-07 | 04:27 am |
-| 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-07-26 | 03:48 am |
+| 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-10-04 | 02:46 pm |
 | 994 | [Rotting Oranges](solutions/0994-rotting-oranges.md) | 🟡 Medium | 2026-09-21 | 08:18 pm |
 | 1049 | [Last Stone Weight II](solutions/1049-last-stone-weight-ii.md) | 🟡 Medium | 2026-09-30 | 06:13 am |
 | 1068 | [Product Sales Analysis I](solutions/1068-product-sales-analysis-i.md) | 🟢 Easy | 2026-08-23 | 10:25 pm |
