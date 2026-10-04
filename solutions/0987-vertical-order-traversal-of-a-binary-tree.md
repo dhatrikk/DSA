@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 4 October 2026 at 02:46 pm IST |
+| **Submitted** | 4 October 2026 at 02:49 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 15.5 MB *(beats 85.4%)* |
 | **Topics** | `Hash Table` `Tree` `Depth-First Search` `Breadth-First Search` `Sorting` `Binary Tree` |
@@ -96,17 +96,14 @@ public:
         queue<pair<TreeNode*, pair<int, int>>> q;
         q.push({root, {0, 0}});
 
-        map < pair < int, int >, vector < int >> mp;
-
-        TreeNode* node;
-        int x, y, s;
+        map < pair < int, int >, vector < int >> mp;        
 
         while (!q.empty()) {
-            s = q.size();
+            int s = q.size();
             for (int i = 0; i< s; i++) {
-                node = q.front().first;
-                x=q.front().second.first;
-                y=q.front().second.second;
+                TreeNode* node = q.front().first;
+                int x=q.front().second.first;
+                int y=q.front().second.second;
                 mp[{x,y}].push_back(node->val);
                 q.pop();
                 if(node->left){
@@ -126,14 +123,10 @@ public:
                 ans.push_back({});
                 i++;
             }
-            if(it.second.size()>1){
                 sort(it.second.begin(), it.second.end());
                 for(int k:it.second){
                     ans[i].push_back(k);
                 }
-            }else{
-                ans[i].push_back(it.second[0]);
-            }
         }
         return ans;
     }
