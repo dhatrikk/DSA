@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 7 October 2026 at 04:34 pm IST |
-| **Runtime** | 220 ms *(beats 26.8%)* |
-| **Memory** | 183.1 MB *(beats 39.5%)* |
+| **Submitted** | 7 October 2026 at 04:50 pm IST |
+| **Runtime** | 222 ms *(beats 25.7%)* |
+| **Memory** | 183 MB *(beats 39.5%)* |
 | **Topics** | `Depth-First Search` `Graph Theory` `Biconnected Component` `Bridge (Graph)` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/critical-connections-in-a-network/)
@@ -72,7 +72,7 @@ class Solution {
                     ans.push_back({node, ngh});
                 }
             } else if (time[ngh]!=0 && ngh != par) {
-                low[node] = min(low[node], time[ngh]);
+                low[node] = min(low[node], low[ngh]);
             }
         }
     }
