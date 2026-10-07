@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **139** | 2026-07-06 |
+| **140** | 2026-07-06 |
 
 ---
 
@@ -139,6 +139,7 @@
 | 1631 | [Path With Minimum Effort](solutions/1631-path-with-minimum-effort.md) | 🟡 Medium | 2026-10-03 | 02:12 pm |
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
+| 1827 | [Minimum Operations to Make the Array Increasing](solutions/1827-minimum-operations-to-make-the-array-increasing.md) | 🟢 Easy | 2026-10-08 | 03:50 am |
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
