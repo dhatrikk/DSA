@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 4 August 2026 at 05:58 am IST |
+| **Submitted** | 8 October 2026 at 09:00 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 25.1 MB *(beats 88.5%)* |
+| **Memory** | 25.2 MB *(beats 75.2%)* |
 | **Topics** | `Array` `Hash Table` `Bit Manipulation` `Sorting` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/set-mismatch/)
@@ -52,43 +52,40 @@ Find the number that occurs twice and the number that is missing and return *the
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
-        int xo=0;
-        int n=nums.size();
+        int xr=0, n=nums.size();
         for(int i=0;i<n;i++){
-            xo=xo^nums[i];
-            xo=xo^(i+1);
-        }
-        int bit=0;
-        while(1){
-            if((xo & (1<<bit)) != 0 ){
-                break;
-            }
-            bit++;
+            xr^=(i+1);
+            xr^=nums[i];
         }
 
-        int a=0, b=0;
+        int df=0;
+        for(int i=0;1;i++){
+            if(1<<i & xr){
+                df=i;
+                break;
+            }
+        }
+        cout<<df;
+        int x=0;
+
         for(int i=0;i<n;i++){
-            if(nums[i] & (1<<bit)){
-                a=a^nums[i];
-            }else{
-                b=b^nums[i];
+            if(nums[i] & 1<<df){
+                x^=nums[i];
             }
-            if((i+1) & (1<<bit)){
-                a=a^(i+1);
-            }else{
-                b=b^(i+1);
+            if(i+1 & 1<<df){
+                x^=(i+1);
             }
         }
-        int cnt=0;
+
+        xr^=x;
         for(int i:nums){
-            if(i==a){
-                cnt++;
+            if(xr==i){
+                return {xr, x};
             }
         }
-        if(cnt==2){
-            return {a,b};
-        }
-        return {b,a};
+
+        return {x, xr};
+
     }
 };
 
