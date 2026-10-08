@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 8 October 2026 at 09:46 pm IST |
-| **Runtime** | 1 ms *(beats 44.2%)* |
-| **Memory** | 13.4 MB *(beats 35.9%)* |
+| **Submitted** | 9 October 2026 at 01:24 am IST |
+| **Runtime** | 0 ms *(beats 100.0%)* |
+| **Memory** | 13.3 MB *(beats 87.3%)* |
 | **Topics** | `Array` `Bit Manipulation` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/single-number-ii/)
@@ -52,20 +52,34 @@ You must implement a solution with a linear runtime complexity and use only cons
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        vector<int> arr(32,0);
-        for(int bit=0;bit<32;bit++){
-            for(int j:nums){
-                if(1<<bit & j){
-                    arr[bit]++;
-                    arr[bit]=arr[bit]%3;
-                }
-            }
+        int one = 0, two = 0;
+
+        for (int i : nums) {
+            one = (one ^ i) & ~two;
+            two = (two ^ i) & ~one;
         }
-        long long ans=0;
-        for(int i=0;i<32;i++){
-            ans+=arr[i]*pow(2,i);
-        }
-        return ans;
+
+        return one;
     }
 };
+
+// class Solution {
+// public:
+//     int singleNumber(vector<int>& nums) {
+//         vector<int> arr(32,0);
+//         for(int bit=0;bit<32;bit++){
+//             for(int j:nums){
+//                 if(1<<bit & j){
+//                     arr[bit]++;
+//                     arr[bit]=arr[bit]%3;
+//                 }
+//             }
+//         }
+//         int ans=0;
+//         for(int i=0;i<32;i++){
+//             ans |= (arr[i]<<i);
+//         }
+//         return ans;
+//     }
+// };
 ```
