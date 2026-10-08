@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 4 September 2026 at 03:08 am IST |
-| **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10.3 MB *(beats 26.2%)* |
+| **Submitted** | 8 October 2026 at 02:46 pm IST |
+| **Runtime** | 2 ms *(beats 82.5%)* |
+| **Memory** | 9.7 MB *(beats 81.6%)* |
 | **Topics** | `String` `String Matching` `Z Algorithm` `Knuth–Morris–Pratt Algorithm` `Boyer–Moore String-Search Algorithm` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/repeated-string-match/)
@@ -50,73 +50,65 @@ Given two strings `a` and `b`, return *the minimum number of times you should re
 
 ```cpp
 class Solution {
-    int mod = 1e9 + 7;
-
-    long long int pw(int x, int n){
-        if(n==1){
-            return x;
-        }
-        if(n==0){
+    int mod = 1e9 + 7, base = 31;
+    long long pw(int x, int n) {
+        if (n == 0) {
             return 1;
         }
-        long long int k=pw(x,n/2);
-        if(n%2){
-            return (((k*k)%mod)*x)%mod;
+        if (n == 1) {
+            return x;
         }
-        return (k*k)%mod;
+        long long num = (pw(x, n / 2)) % mod;
+        if (n % 2 == 1) {
+            return ((num * num)%mod * x) % mod;
+        }
+        return (num * num) % mod;
     }
-    
-
-    bool ch(string a, string b, int& n, long long int& hash, int& base){
-        long long int power= pw(base,n-1);
-        long long int chash=0;
-        for(int i=0;i<n;i++){
-            chash*=base;
-            chash+=(b[i]-'a'+1);
-            chash%=mod;
+    bool f(string& s1, int n1, string& s2, int n2) {
+        long long hash1 = 0, hash2 = 0;
+        for (int i = 0; i < n1; i++) {
+            hash1 = (hash1 * base) % mod;
+            hash1 = (hash1 + (s1[i] - 'a' + 1)) % mod;
+            hash2 = (hash2 * base) % mod;
+            hash2 = (hash2 + (s2[i] - 'a' + 1)) % mod;
         }
 
-        for(int i=n;i<b.size();i++){
-            if(chash==hash){
-                if(a==b.substr(i-n,n)){
-                    return true;
-                }
+        long long power= pw(base, n1 - 1);
+        for (int i = n1; i < n2; i++) {
+            if (hash1 == hash2 && s2.substr(i - n1, n1) == s1) {
+                return true;
             }
-            chash= (chash - (b[i-n]-'a'+1)*power%mod +mod)%mod;
-            chash= (chash * base)%mod;
-            chash= (chash + (b[i]-'a'+1))%mod;
+            hash2 = (hash2 - ((s2[i - n1] - 'a' + 1) * power % mod) +
+                     mod) %
+                    mod;
+            hash2 = (hash2 * base) % mod;
+            hash2 = (hash2 + (s2[i] - 'a' + 1)) % mod;
         }
-        if(chash==hash){
-                if(a==b.substr(b.size()-n,n)){
-                    return true;
-                }
-            }
+        if (hash1 == hash2 && s2.substr(n2 - n1, n1) == s1) {
+                return true;
+        }
         return false;
     }
+
 public:
     int repeatedStringMatch(string a, string b) {
-
-        long long int hash=0;
-        int base=31;
-
-        for(char c:b){
-            hash= (hash * base)%mod;
-            hash= (hash + (c-'a'+1))%mod;
+        int na = a.size(), nb = b.size();
+        int ans = 1;
+        int n = na;
+        string s = a;
+        while (n < nb) {
+            s += a;
+            ans++;
+            n += na;
         }
-
-        string ans="";
-        int cnt=0;
-        int n=b.size();
-        while(ans.size()<b.size()){
-            ans+=a;
-            cnt++;
+        if (f(b, nb, s, n)) {
+            return ans;
         }
-        if(ch(b, ans, n, hash, base)){
-            return cnt;
-        }
-        ans+=a;
-        if(ch(b, ans, n, hash, base)){
-            return cnt+1;
+        s += a;
+        n += na;
+        ans++;
+        if (f(b, nb, s, n)) {
+            return ans;
         }
         return -1;
     }
