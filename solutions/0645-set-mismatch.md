@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 8 October 2026 at 09:00 pm IST |
+| **Submitted** | 8 October 2026 at 09:19 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 25.2 MB *(beats 75.2%)* |
 | **Topics** | `Array` `Hash Table` `Bit Manipulation` `Sorting` |
@@ -52,42 +52,65 @@ Find the number that occurs twice and the number that is missing and return *the
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
-        int xr=0, n=nums.size();
-        for(int i=0;i<n;i++){
-            xr^=(i+1);
-            xr^=nums[i];
-        }
-
-        int df=0;
-        for(int i=0;1;i++){
-            if(1<<i & xr){
-                df=i;
-                break;
-            }
-        }
-        cout<<df;
-        int x=0;
-
-        for(int i=0;i<n;i++){
-            if(nums[i] & 1<<df){
-                x^=nums[i];
-            }
-            if(i+1 & 1<<df){
-                x^=(i+1);
-            }
-        }
-
-        xr^=x;
+        long long n=nums.size();
+        long long sqnm=0, sq=((n*(n+1)/2)*(2*n+1))/3, smnm=0, sm=(n*(n+1))/2;
         for(int i:nums){
-            if(xr==i){
-                return {xr, x};
-            }
+            sqnm+=(i*i);
+            smnm+=i;
         }
 
-        return {x, xr};
+        int diff=smnm-sm;
+        int smm=(sqnm-sq)/diff;
+
+        int x=(smm+diff)/2;
+        int y=smm-x;
+
+        return {x,y};
 
     }
 };
+
+
+// XOR
+// class Solution {
+// public:
+//     vector<int> findErrorNums(vector<int>& nums) {
+//         int xr=0, n=nums.size();
+//         for(int i=0;i<n;i++){
+//             xr^=(i+1);
+//             xr^=nums[i];
+//         }
+
+//         int df=0;
+//         for(int i=0;1;i++){
+//             if(1<<i & xr){
+//                 df=i;
+//                 break;
+//             }
+//         }
+//         cout<<df;
+//         int x=0;
+
+//         for(int i=0;i<n;i++){
+//             if(nums[i] & 1<<df){
+//                 x^=nums[i];
+//             }
+//             if(i+1 & 1<<df){
+//                 x^=(i+1);
+//             }
+//         }
+
+//         xr^=x;
+//         for(int i:nums){
+//             if(xr==i){
+//                 return {xr, x};
+//             }
+//         }
+
+//         return {x, xr};
+
+//     }
+// };
 
 
 
