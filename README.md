@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **144** | 2026-07-06 |
+| **145** | 2026-07-06 |
 
 ---
 
@@ -18,6 +18,7 @@
 | # | Problem | Difficulty | Date | Time (IST) |
 |---|---|---|---|---|
 | 1 | [Two Sum](solutions/0001-two-sum.md) | 🟢 Easy | 2026-09-21 | 04:31 pm |
+| 3 | [Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters.md) | 🟡 Medium | 2026-10-09 | 01:50 am |
 | 5 | [Longest Palindromic Substring](solutions/0005-longest-palindromic-substring.md) | 🟡 Medium | 2026-08-07 | 10:50 pm |
 | 7 | [Reverse Integer](solutions/0007-reverse-integer.md) | 🟡 Medium | 2026-07-06 | 06:38 pm |
 | 8 | [String to Integer (atoi)](solutions/0008-string-to-integer-atoi.md) | 🟡 Medium | 2026-08-06 | 06:29 am |
