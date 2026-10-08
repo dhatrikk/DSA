@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 8 October 2026 at 07:10 pm IST |
-| **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10 MB *(beats 60.1%)* |
+| **Submitted** | 8 October 2026 at 07:11 pm IST |
+| **Runtime** | 3 ms *(beats 27.9%)* |
+| **Memory** | 9.9 MB *(beats 82.0%)* |
 | **Topics** | `Array` `Backtracking` `Bit Manipulation` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/subsets/)
@@ -50,6 +50,7 @@ The solution set **must not** contain duplicate subsets. Return the solution in 
 ## ✅ Accepted Solution
 
 ```cpp
+//BIT OPERATION
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
