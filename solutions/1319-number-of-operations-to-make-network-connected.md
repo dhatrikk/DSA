@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 10 October 2026 at 02:49 am IST |
-| **Runtime** | 27 ms *(beats 29.3%)* |
-| **Memory** | 46.6 MB *(beats 51.7%)* |
+| **Submitted** | 10 October 2026 at 02:51 am IST |
+| **Runtime** | 19 ms *(beats 52.7%)* |
+| **Memory** | 46.7 MB *(beats 51.7%)* |
 | **Topics** | `Depth-First Search` `Breadth-First Search` `Union-Find` `Graph Theory` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
@@ -111,10 +111,10 @@ public:
             }
         }
 
-        if(extra>=comp-1){
-            return comp-1;
+        if(extra<comp-1){
+            return -1;
         }
-        return 0;
+        return comp-1;
     }
 };
 
