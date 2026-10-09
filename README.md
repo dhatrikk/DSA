@@ -96,7 +96,7 @@
 | 450 | [Delete Node in a BST](solutions/0450-delete-node-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 08:02 pm |
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency.md) | 🟡 Medium | 2026-08-05 | 04:37 pm |
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
-| 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-08-05 | 12:25 pm |
+| 493 | [Reverse Pairs](solutions/0493-reverse-pairs.md) | 🔴 Hard | 2026-10-09 | 02:20 pm |
 | 494 | [Target Sum](solutions/0494-target-sum.md) | 🟡 Medium | 2026-09-29 | 06:29 am |
 | 503 | [Next Greater Element II](solutions/0503-next-greater-element-ii.md) | 🟡 Medium | 2026-09-26 | 06:22 am |
 | 516 | [Longest Palindromic Subsequence](solutions/0516-longest-palindromic-subsequence.md) | 🟡 Medium | 2026-09-30 | 11:33 am |
