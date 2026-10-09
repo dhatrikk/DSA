@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 5 August 2026 at 12:25 pm IST |
-| **Runtime** | 516 ms *(beats 49.8%)* |
-| **Memory** | 245.4 MB *(beats 17.0%)* |
+| **Submitted** | 9 October 2026 at 02:20 pm IST |
+| **Runtime** | 544 ms *(beats 28.0%)* |
+| **Memory** | 240.1 MB *(beats 70.4%)* |
 | **Topics** | `Array` `Binary Search` `Divide and Conquer` `Binary Indexed Tree` `Segment Tree` `Merge Sort` `Ordered Set` `Treap` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/reverse-pairs/)
@@ -58,77 +58,58 @@ A **reverse pair** is a pair `(i, j)` where:
 
 ```cpp
 class Solution {
-    void mrg(vector<int>& nums, int i, int mid, int j) {
-        int l = i, r = mid + 1;
-        vector<int> tmp;
-        while (l <= mid && r <= j) {
-            if (nums[l] <= nums[r]) {
-                tmp.push_back(nums[l]);
-                l++;
-            } else {
-                tmp.push_back(nums[r]);
-                r++;
+public:
+    void mrg(vector<int>& nums, int l1, int r1, int r2, int& cnt) {
+        int l2 = r1 + 1, i = l1, l = l1;
+        for (int j = l2; j <= r2; j++) {
+            while (i < r1 && nums[i] / 2.0 <= nums[j]) {
+                i++;
+            }
+            if (nums[i] / 2.0 > nums[j]) {
+                cnt += (l2 - i);
             }
         }
-        while (l <= mid) {
-            tmp.push_back(nums[l]);
-            l++;
+        vector<int> tmp;
+        while (l1 <= r1 && l2 <= r2) {
+            if (nums[l1] < nums[l2]) {
+                tmp.push_back(nums[l1]);
+                l1++;
+            } else {
+                tmp.push_back(nums[l2]);
+                l2++;
+            }
         }
-        while (r <= j) {
-            tmp.push_back(nums[r]);
-            r++;
+        while (l1 <= r1) {
+            tmp.push_back(nums[l1]);
+            l1++;
         }
-        for (int x = i; x <= j; x++) {
-            nums[x] = tmp[x - i];
+        while (l2 <= r2) {
+            tmp.push_back(nums[l2]);
+            l2++;
+        }
+
+        for (int i = l; i <= r2; i++) {
+            nums[i] = tmp[i - l];
         }
     }
-    void f(vector<int>& nums, int i, int j, int& cnt) {
-        if (i >= j) {
+
+    void f(vector<int>& nums, int l, int r, int& cnt) {
+        if (l >= r) {
             return;
         }
-        int mid = (i + j) / 2;
-        f(nums, i, mid, cnt);
-        f(nums, mid + 1, j, cnt);
-
-        int l = i;
-        for (int r = mid + 1; r <= j; r++) {
-            while (l <= mid && nums[l] <= 2LL * nums[r]) {
-                l++;
-            }
-            if (l > mid) {
-                break;
-            }
-            cnt += (mid - l + 1);
-        }
-
-        mrg(nums, i, mid, j);
-        return;
+        int mid = l + (r - l) / 2;
+        f(nums, l, mid, cnt);
+        f(nums, mid + 1, r, cnt);
+        mrg(nums, l, mid, r, cnt);
     }
 
-public:
-    int reversePairs(vector<int> nums) {
+    int reversePairs(vector<int>& nums) {
+        int l = 0, r = nums.size() - 1;
         int cnt = 0;
-        f(nums, 0, nums.size() - 1, cnt);
+        f(nums, l, r, cnt);
         return cnt;
     }
 };
-
-// class Solution {
-// public:
-//     int reversePairs(vector<int>& nums) {
-//         int ans=0;
-//         int n=nums.size();
-
-//         for(int i=0;i<n;i++){
-//             for(int j=i+1;j<n;j++){
-//                 if(nums[i]/2.0>nums[j]){
-//                     ans++;
-//                 }
-//             }
-//         }
-//         return ans;
-//     }
-// };
 ```
 
 ---
