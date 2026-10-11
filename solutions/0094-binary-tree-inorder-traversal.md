@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 20 July 2026 at 03:18 pm IST |
+| **Submitted** | 11 October 2026 at 06:39 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 11 MB *(beats 34.2%)* |
+| **Memory** | 11.1 MB *(beats 14.9%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -76,25 +76,21 @@ Given the `root` of a binary tree, return *the inorder traversal of its nodes' v
  * };
  */
 class Solution {
+    void f(TreeNode* node, vector<int>& ans){
+        if(!node){
+            return;
+        }
+        f(node->left, ans);
+        ans.push_back(node->val);
+        f(node->right, ans);
+    }
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         if(!root){
             return {};
         }
-        stack<TreeNode*> st; 
-        TreeNode* node=root;
         vector<int> ans;
-
-        while(node || !st.empty()){
-            while(node){
-                st.push(node);
-                node=node->left;
-            }
-            node=st.top();
-            st.pop();
-            ans.push_back(node->val);
-            node=node->right;
-        }
+        f(root, ans);
 
         return ans;
     }
