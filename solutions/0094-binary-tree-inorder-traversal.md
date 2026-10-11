@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 11 October 2026 at 06:54 pm IST |
+| **Submitted** | 11 October 2026 at 09:06 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10.7 MB *(beats 89.3%)* |
+| **Memory** | 10.8 MB *(beats 67.4%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -75,25 +75,35 @@ Given the `root` of a binary tree, return *the inorder traversal of its nodes' v
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// Morris 
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         if(!root){
             return {};
         }
-        stack<TreeNode*> st;
-        TreeNode* curr=root;
         vector<int> ans;
+        TreeNode* node=root, *prev;
 
-        while(st.size() || curr){
-            while(curr){
-                st.push(curr);
-                curr=curr->left;
+        while(node){
+            if(node->left){
+                prev= node->left;
+                while(prev->right && prev->right!=node){
+                    prev=prev->right;
+                }
+                if(!prev->right){
+                    prev->right=node;
+                    node=node->left;
+                }else if(prev->right==node){
+                    prev->right=nullptr;
+                    ans.push_back(node->val);
+                    node=node->right;
+                }
+            }else{
+                ans.push_back(node->val);
+                node=node->right;
             }
-            curr=st.top();
-            st.pop();
-            ans.push_back(curr->val);
-            curr=curr->right;
         }
         return ans;
     }
@@ -102,7 +112,35 @@ public:
 
 
 
+// Using Stack 
+// class Solution {
+// public:
+//     vector<int> inorderTraversal(TreeNode* root) {
+//         if(!root){
+//             return {};
+//         }
+//         stack<TreeNode*> st;
+//         TreeNode* curr=root;
+//         vector<int> ans;
 
+//         while(st.size() || curr){
+//             while(curr){
+//                 st.push(curr);
+//                 curr=curr->left;
+//             }
+//             curr=st.top();
+//             st.pop();
+//             ans.push_back(curr->val);
+//             curr=curr->right;
+//         }
+//         return ans;
+//     }
+// };
+
+
+
+
+// Recursion
 // class Solution {
 //     void f(TreeNode* node, vector<int>& ans){
 //         if(!node){
