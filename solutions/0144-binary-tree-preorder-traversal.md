@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 11 July 2026 at 09:18 am IST |
+| **Submitted** | 11 October 2026 at 09:16 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10.8 MB *(beats 73.7%)* |
+| **Memory** | 11 MB *(beats 44.7%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/)
@@ -75,29 +75,24 @@ Given the `root` of a binary tree, return *the preorder traversal of its nodes' 
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// Recursion
 class Solution {
+    void f(vector<int>& ans, TreeNode* node){
+        if(!node){
+            return;
+        }
+        ans.push_back(node->val);
+        f(ans, node->left);
+        f(ans, node->right);
+    }
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         if(!root){
             return {};
         }
-        stack<TreeNode*> st;
         vector<int> ans;
-
-        st.push(root);
-        TreeNode* n;
-
-        while(!st.empty()){
-            n=st.top();
-            st.pop();
-            ans.push_back(n->val);
-            if(n->right){
-                st.push(n->right);
-            }
-            if(n->left){
-                st.push(n->left);
-            }
-        }
+        f(ans, root);
         return ans;
     }
 };
