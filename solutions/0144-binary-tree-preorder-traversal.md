@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 11 October 2026 at 09:21 pm IST |
+| **Submitted** | 11 October 2026 at 09:52 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 11 MB *(beats 44.7%)* |
+| **Memory** | 10.8 MB *(beats 74.5%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/)
@@ -72,39 +72,70 @@ Given the `root` of a binary tree, return *the preorder traversal of its nodes' 
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 
-// Stack 
+// Morris 
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        if(!root){
+        if (!root) {
             return {};
         }
-        stack<TreeNode*> st;
-        st.push(root);
+        TreeNode *node = root, *prev;
         vector<int> ans;
 
-        while(st.size()){
-            TreeNode* node=st.top();
-            st.pop();
-            ans.push_back(node->val);
-            if(node->right){
-                st.push(node->right);
-            }
-            if(node->left){
-                st.push(node->left);
+        while (node) {
+            if (node->left) {
+                prev = node->left;
+                while (prev->right && prev->right != node) {
+                    prev = prev->right;
+                }
+                if (prev->right == nullptr) {
+                    prev->right = node;
+                    ans.push_back(node->val);
+                    node = node->left;
+                } else {
+                    prev->right = nullptr;
+                    node = node->right;
+                }
+            } else {
+                ans.push_back(node->val);
+                node = node->right;
             }
         }
-
         return ans;
     }
 };
 
+// Stack
+// class Solution {
+// public:
+//     vector<int> preorderTraversal(TreeNode* root) {
+//         if(!root){
+//             return {};
+//         }
+//         stack<TreeNode*> st;
+//         st.push(root);
+//         vector<int> ans;
 
+//         while(st.size()){
+//             TreeNode* node=st.top();
+//             st.pop();
+//             ans.push_back(node->val);
+//             if(node->right){
+//                 st.push(node->right);
+//             }
+//             if(node->left){
+//                 st.push(node->left);
+//             }
+//         }
 
+//         return ans;
+//     }
+// };
 
 // Recursion
 // class Solution {
