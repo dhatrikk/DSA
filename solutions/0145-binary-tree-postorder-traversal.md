@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 23 July 2026 at 02:51 pm IST |
+| **Submitted** | 11 October 2026 at 10:00 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 10.9 MB *(beats 93.5%)* |
+| **Memory** | 11 MB *(beats 74.3%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -72,44 +72,69 @@ Given the `root` of a binary tree, return *the postorder traversal of its nodes'
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
+    void f(vector<int>& ans, TreeNode* node){
+        if(!node){
+            return;
+        }
+        f(ans, node->left);
+        f(ans, node->right);
+        ans.push_back(node->val);
+    }
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        if (!root) {
+        if(!root){
             return {};
         }
 
         vector<int> ans;
-        stack<TreeNode*> st;
+        f(ans, root);
 
-        TreeNode* node = root;
-        TreeNode* temp;
-
-        while (node || st.size()) {
-            if (node) {
-                st.push(node);
-                node = node->left;
-            } else {
-                temp = st.top()->right;
-                if (temp) {
-                    node = temp;
-                } else {
-                    temp = st.top();
-                    st.pop();
-                    ans.push_back(temp->val);
-                    while (st.size() && st.top()->right == temp) {
-                        temp = st.top();
-                        st.pop();
-                        ans.push_back(temp->val);
-                    }
-                }
-            }
-        }
         return ans;
     }
 };
+
+
+
+
+// Stack
+// class Solution {
+// public:
+//     vector<int> postorderTraversal(TreeNode* root) {
+//         if (!root) {
+//             return {};
+//         }
+
+//         vector<int> ans;
+//         stack<TreeNode*> st;
+
+//         TreeNode* node = root;
+//         TreeNode* temp;
+
+//         while (node || st.size()) {
+//             if (node) {
+//                 st.push(node);
+//                 node = node->left;
+//             } else {
+//                 temp = st.top()->right;
+//                 if (temp) {
+//                     node = temp;
+//                 } else {
+//                     temp = st.top();
+//                     st.pop();
+//                     ans.push_back(temp->val);
+//                     while (st.size() && st.top()->right == temp) {
+//                         temp = st.top();
+//                         st.pop();
+//                         ans.push_back(temp->val);
+//                     }
+//                 }
+//             }
+//         }
+//         return ans;
+//     }
+// };
 ```
