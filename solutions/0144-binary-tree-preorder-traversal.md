@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 11 October 2026 at 09:16 pm IST |
+| **Submitted** | 11 October 2026 at 09:21 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 11 MB *(beats 44.7%)* |
 | **Topics** | `Stack` `Tree` `Depth-First Search` `Binary Tree` |
@@ -76,24 +76,54 @@ Given the `root` of a binary tree, return *the preorder traversal of its nodes' 
  * };
  */
 
-// Recursion
+// Stack 
 class Solution {
-    void f(vector<int>& ans, TreeNode* node){
-        if(!node){
-            return;
-        }
-        ans.push_back(node->val);
-        f(ans, node->left);
-        f(ans, node->right);
-    }
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         if(!root){
             return {};
         }
+        stack<TreeNode*> st;
+        st.push(root);
         vector<int> ans;
-        f(ans, root);
+
+        while(st.size()){
+            TreeNode* node=st.top();
+            st.pop();
+            ans.push_back(node->val);
+            if(node->right){
+                st.push(node->right);
+            }
+            if(node->left){
+                st.push(node->left);
+            }
+        }
+
         return ans;
     }
 };
+
+
+
+
+// Recursion
+// class Solution {
+//     void f(vector<int>& ans, TreeNode* node){
+//         if(!node){
+//             return;
+//         }
+//         ans.push_back(node->val);
+//         f(ans, node->left);
+//         f(ans, node->right);
+//     }
+// public:
+//     vector<int> preorderTraversal(TreeNode* root) {
+//         if(!root){
+//             return {};
+//         }
+//         vector<int> ans;
+//         f(ans, root);
+//         return ans;
+//     }
+// };
 ```
