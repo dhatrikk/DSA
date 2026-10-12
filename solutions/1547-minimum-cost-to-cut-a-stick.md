@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 12 October 2026 at 06:23 am IST |
-| **Runtime** | 39 ms *(beats 27.9%)* |
-| **Memory** | 14 MB *(beats 27.8%)* |
+| **Submitted** | 12 October 2026 at 06:41 am IST |
+| **Runtime** | 15 ms *(beats 93.6%)* |
+| **Memory** | 13.6 MB *(beats 92.4%)* |
 | **Topics** | `Array` `Dynamic Programming` `Sorting` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)
@@ -64,35 +64,64 @@ There are much ordering with total cost <= 25, for example, the order [4, 6, 5, 
 ## ✅ Accepted Solution
 
 ```cpp
-// Recursion
+// Tabulation
 class Solution {
-    int f(vector<int>& cuts, int l, int r, vector<vector<int>>& dp){
-        if(l>=r){
-            return 0;
-        }
-        if(dp[l][r]!=-1){
-            return dp[l][r];
-        }
-        int cost=1e9;
-        for(int c=l+1; c<r;c++){
-            cost = min(cost, f(cuts, l, c, dp) + f(cuts, c, r, dp) + cuts[r]-cuts[l]);
-        }
-        if(cost==1e9){
-            return dp[l][r]=0;
-        }
-        return dp[l][r]=cost;
-    }
-    
 public:
     int minCost(int n, vector<int>& cuts) {
         cuts.push_back(0);
         cuts.push_back(n);
-        int s=cuts.size();
         sort(cuts.begin(), cuts.end());
-        vector<vector<int>> dp(s, vector<int> (s, -1));
-        return f(cuts, 0, s-1, dp);
+        int s=cuts.size();
+        vector<vector<int>> dp(s, vector<int> (s, 0));
+
+        for(int i=s-1;i>=0;i--){
+            for(int j=i+1;j<s;j++){
+                int cost=1e9;
+                for(int c=i+1;c<j;c++){
+                    cost=min(cost, cuts[j]-cuts[i]+dp[i][c]+dp[c][j]);
+                }
+                if(cost==1e9){
+                    cost=0;
+                }
+                dp[i][j]=cost;
+            }
+        }
+        return dp[0][s-1];
     }
 };
+
+
+
+
+// Recursion
+// class Solution {
+//     int f(vector<int>& cuts, int l, int r, vector<vector<int>>& dp){
+//         if(l>=r){
+//             return 0;
+//         }
+//         if(dp[l][r]!=-1){
+//             return dp[l][r];
+//         }
+//         int cost=1e9;
+//         for(int c=l+1; c<r;c++){
+//             cost = min(cost, f(cuts, l, c, dp) + f(cuts, c, r, dp) + cuts[r]-cuts[l]);
+//         }
+//         if(cost==1e9){
+//             return dp[l][r]=0;
+//         }
+//         return dp[l][r]=cost;
+//     }
+    
+// public:
+//     int minCost(int n, vector<int>& cuts) {
+//         cuts.push_back(0);
+//         cuts.push_back(n);
+//         int s=cuts.size();
+//         sort(cuts.begin(), cuts.end());
+//         vector<vector<int>> dp(s, vector<int> (s, -1));
+//         return f(cuts, 0, s-1, dp);
+//     }
+// };
 ```
 
 ---
