@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **150** | 2026-07-06 |
+| **151** | 2026-07-06 |
 
 ---
 
@@ -143,6 +143,7 @@
 | 1423 | [Maximum Points You Can Obtain from Cards](solutions/1423-maximum-points-you-can-obtain-from-cards.md) | 🟡 Medium | 2026-10-09 | 02:06 am |
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
 | 1539 | [Kth Missing Positive Number](solutions/1539-kth-missing-positive-number.md) | 🟢 Easy | 2026-08-09 | 08:37 am |
+| 1547 | [Minimum Cost to Cut a Stick](solutions/1547-minimum-cost-to-cut-a-stick.md) | 🔴 Hard | 2026-10-12 | 06:23 am |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](solutions/1581-customer-who-visited-but-did-not-make-any-transactions.md) | 🟢 Easy | 2026-08-23 | 10:32 pm |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
 | 1631 | [Path With Minimum Effort](solutions/1631-path-with-minimum-effort.md) | 🟡 Medium | 2026-10-03 | 02:12 pm |
