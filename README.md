@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **152** | 2026-07-06 |
+| **153** | 2026-07-06 |
 
 ---
 
@@ -94,6 +94,7 @@
 | 260 | [Single Number III](solutions/0260-single-number-iii.md) | 🟡 Medium | 2026-10-08 | 08:28 pm |
 | 300 | [Longest Increasing Subsequence](solutions/0300-longest-increasing-subsequence.md) | 🟡 Medium | 2026-09-30 | 09:01 pm |
 | 416 | [Partition Equal Subset Sum](solutions/0416-partition-equal-subset-sum.md) | 🟡 Medium | 2026-09-28 | 10:34 pm |
+| 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement.md) | 🟡 Medium | 2026-10-12 | 09:03 pm |
 | 450 | [Delete Node in a BST](solutions/0450-delete-node-in-a-bst.md) | 🟡 Medium | 2026-09-27 | 08:02 pm |
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency.md) | 🟡 Medium | 2026-08-05 | 04:37 pm |
 | 486 | [Predict the Winner](solutions/0486-predict-the-winner.md) | 🟡 Medium | 2026-08-03 | 04:14 am |
