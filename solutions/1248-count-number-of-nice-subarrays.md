@@ -4,7 +4,7 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 12 October 2026 at 11:24 pm IST |
+| **Submitted** | 12 October 2026 at 11:25 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 75.5 MB *(beats 27.4%)* |
 | **Topics** | `Array` `Hash Table` `Math` `Sliding Window` `Prefix Sum` |
