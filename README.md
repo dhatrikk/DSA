@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **151** | 2026-07-06 |
+| **152** | 2026-07-06 |
 
 ---
 
@@ -138,6 +138,7 @@
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
 | 1319 | [Number of Operations to Make Network Connected](solutions/1319-number-of-operations-to-make-network-connected.md) | 🟡 Medium | 2026-10-10 | 02:51 am |
 | 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
+| 1358 | [Number of Substrings Containing All Three Characters](solutions/1358-number-of-substrings-containing-all-three-characters.md) | 🟡 Medium | 2026-10-12 | 07:39 am |
 | 1378 | [Replace Employee ID With The Unique Identifier](solutions/1378-replace-employee-id-with-the-unique-identifier.md) | 🟢 Easy | 2026-08-21 | 11:45 pm |
 | 1406 | [Stone Game III](solutions/1406-stone-game-iii.md) | 🔴 Hard | 2026-08-04 | 04:28 am |
 | 1423 | [Maximum Points You Can Obtain from Cards](solutions/1423-maximum-points-you-can-obtain-from-cards.md) | 🟡 Medium | 2026-10-09 | 02:06 am |
