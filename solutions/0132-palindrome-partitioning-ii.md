@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🔴 Hard |
 | **Language** | C++ |
-| **Submitted** | 14 October 2026 at 03:37 am IST |
-| **Runtime** | 1611 ms *(beats 22.4%)* |
-| **Memory** | 9.3 MB *(beats 78.7%)* |
+| **Submitted** | 14 October 2026 at 04:00 am IST |
+| **Runtime** | 1504 ms *(beats 32.1%)* |
+| **Memory** | 9 MB *(beats 98.8%)* |
 | **Topics** | `String` `Dynamic Programming` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/)
@@ -57,41 +57,76 @@ Return *the **minimum** cuts needed for a palindrome partitioning of* `s`.
 
 ```cpp
 class Solution {
-    bool isp(string& s, int i, int j){
-        while(i<=j){
-            if(s[i]!=s[j]){
+    bool isp(string& s, int l, int r){
+        while(l<r){
+            if(s[l]!=s[r]){
                 return false;
             }
-            i++;
-            j--;
+            l++;
+            r--;
         }
         return true;
     }
-
-    int f(string& s, int l, int n, vector<int>& dp){
-        if(l>=n){
-            return 0;
-        }
-        if(dp[l]!=-1){
-            return dp[l];
-        }
-        if(isp(s, l, n-1)){
-            return dp[l]=0;
-        }
-        int ans=1e9;
-        for(int p=l;p<n;p++){
-            if(isp(s, l, p)){
-                ans=min(ans, 1 + f(s, p+1, n, dp));
-            }
-        }
-        return dp[l]=ans;
-    }
-
 public:
     int minCut(string s) {
         int n=s.size();
-        vector<int> dp(n, -1);
-        return f(s, 0, n, dp);
+        vector<int> dp(n+1, 0);
+
+        for(int i=n-2;i>=0;i--){
+            int cost=1e9;
+            for(int p=i;p<n;p++){
+                if(isp(s, i, p)){
+                    cost=min(cost, p==n-1?0:1 +dp[p+1]);
+                }
+            }
+            dp[i]=cost;
+        }
+
+        return dp[0];
     }
 };
+
+
+
+
+
+// Recursion
+// class Solution {
+//     bool isp(string& s, int i, int j){
+//         while(i<=j){
+//             if(s[i]!=s[j]){
+//                 return false;
+//             }
+//             i++;
+//             j--;
+//         }
+//         return true;
+//     }
+
+//     int f(string& s, int l, int n, vector<int>& dp){
+//         if(l>=n){
+//             return 0;
+//         }
+//         if(dp[l]!=-1){
+//             return dp[l];
+//         }
+//         if(isp(s, l, n-1)){
+//             return dp[l]=0;
+//         }
+//         int ans=1e9;
+//         for(int p=l;p<n;p++){
+//             if(isp(s, l, p)){
+//                 ans=min(ans, 1 + f(s, p+1, n, dp));
+//             }
+//         }
+//         return dp[l]=ans;
+//     }
+
+// public:
+//     int minCut(string s) {
+//         int n=s.size();
+//         vector<int> dp(n, -1);
+//         return f(s, 0, n, dp);
+//     }
+// };
 ```
