@@ -30,7 +30,7 @@
 | 20 | [Valid Parentheses](solutions/0020-valid-parentheses.md) | 🟢 Easy | 2026-08-09 | 10:16 am |
 | 22 | [Generate Parentheses](solutions/0022-generate-parentheses.md) | 🟡 Medium | 2026-09-22 | 01:50 am |
 | 26 | [Remove Duplicates from Sorted Array](solutions/0026-remove-duplicates-from-sorted-array.md) | 🟢 Easy | 2026-09-21 | 03:09 am |
-| 28 | [Find the Index of the First Occurrence in a String](solutions/0028-find-the-index-of-the-first-occurrence-in-a-string.md) | 🟢 Easy | 2026-08-18 | 02:54 pm |
+| 28 | [Find the Index of the First Occurrence in a String](solutions/0028-find-the-index-of-the-first-occurrence-in-a-string.md) | 🟢 Easy | 2026-10-15 | 04:29 pm |
 | 31 | [Next Permutation](solutions/0031-next-permutation.md) | 🟡 Medium | 2026-10-10 | 05:53 pm |
 | 34 | [Find First and Last Position of Element in Sorted Array](solutions/0034-find-first-and-last-position-of-element-in-sorted-array.md) | 🟡 Medium | 2026-08-08 | 02:33 pm |
 | 35 | [Search Insert Position](solutions/0035-search-insert-position.md) | 🟢 Easy | 2026-08-08 | 01:07 pm |
