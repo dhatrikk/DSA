@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | C++ |
-| **Submitted** | 18 August 2026 at 02:54 pm IST |
+| **Submitted** | 15 October 2026 at 04:29 pm IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 9.5 MB *(beats 10.6%)* |
+| **Memory** | 9.3 MB *(beats 24.7%)* |
 | **Topics** | `Two Pointers` `String` `String Matching` `Z Algorithm` `Knuth–Morris–Pratt Algorithm` `Boyer–Moore String-Search Algorithm` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
@@ -50,44 +50,52 @@ The first occurrence is at index 0, so we return 0.
 
 ```cpp
 class Solution {
-    vector<int> lps(string& s) {
-        int n = s.size();
-        vector<int> v(n);
+    void f(vector<int>& lps, string& s, int n) {
         int len = 0;
-        int i = 1;
-
-        while (i < n) {
+        lps[0] = 0;
+        for (int i = 1; i < n; i++) {
             if (s[i] == s[len]) {
                 len++;
-                v[i] = len;
-                i++;
-            } else if (len) {
-                len = v[len - 1];
             } else {
-                i++;
+                while (len > 0 && s[i] != s[len]) {
+                    len = lps[len - 1];
+                }
+                if (s[i] == s[len]) {
+                    len++;
+                }
             }
+            lps[i] = len;
         }
-        return v;
+        return;
     }
 
 public:
-    int strStr(string h, string ne) {
-        vector<int> v = lps(ne);
-        int i = 0, j = 0, n = ne.size(), m = h.size();
+    int strStr(string hs, string nd) {
+        int h = hs.size(), n = nd.size();
+        if(n==0){
+            return 0;
+        }
+        if(n>h){
+            return -1;
+        }
+        vector<int> lps(n);
+        f(lps, nd, n);
 
-        while (j < m) {
-            if (h[j] == ne[i]) {
+        int i = 0, j = 0;
+        while (i < h) {
+            if (hs[i] == nd[j]) {
                 i++;
                 j++;
-            } else if(i>0){
-                i = v[i - 1];
-            }else{
-                j++;
+            } else if (j > 0) {
+                j = lps[j - 1];
+            } else {
+                i++;
             }
-            if (i == n) {
-                return j - n;
+            if (j == n) {
+                return i - n;
             }
         }
+
         return -1;
     }
 };
