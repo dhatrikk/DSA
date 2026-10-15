@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **157** | 2026-07-06 |
+| **158** | 2026-07-06 |
 
 ---
 
@@ -124,6 +124,7 @@
 | 735 | [Asteroid Collision](solutions/0735-asteroid-collision.md) | 🟡 Medium | 2026-08-07 | 09:10 pm |
 | 785 | [Is Graph Bipartite?](solutions/0785-is-graph-bipartite.md) | 🟡 Medium | 2026-09-22 | 07:52 pm |
 | 787 | [Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops.md) | 🟡 Medium | 2026-10-05 | 12:17 pm |
+| 804 | [Unique Morse Code Words](solutions/0804-unique-morse-code-words.md) | 🟢 Easy | 2026-10-15 | 05:53 pm |
 | 827 | [Making A Large Island](solutions/0827-making-a-large-island.md) | 🔴 Hard | 2026-10-10 | 04:04 pm |
 | 863 | [All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree.md) | 🟡 Medium | 2026-10-04 | 04:46 pm |
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
