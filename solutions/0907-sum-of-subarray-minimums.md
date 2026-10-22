@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 17 October 2026 at 02:14 am IST |
-| **Runtime** | 135 ms *(beats 5.2%)* |
-| **Memory** | 202 MB *(beats 13.4%)* |
+| **Submitted** | 22 October 2026 at 11:49 pm IST |
+| **Runtime** | 141 ms *(beats 5.1%)* |
+| **Memory** | 201.8 MB *(beats 13.9%)* |
 | **Topics** | `Array` `Dynamic Programming` `Stack` `Monotonic Stack` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/)
