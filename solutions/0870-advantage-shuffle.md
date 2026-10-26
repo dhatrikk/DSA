@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 26 October 2026 at 11:06 pm IST |
-| **Runtime** | 114 ms *(beats 13.8%)* |
-| **Memory** | 82.7 MB *(beats 8.9%)* |
+| **Submitted** | 27 October 2026 at 12:03 am IST |
+| **Runtime** | 223 ms *(beats 5.2%)* |
+| **Memory** | 93.1 MB *(beats 5.0%)* |
 | **Topics** | `Array` `Two Pointers` `Greedy` `Sorting` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/advantage-shuffle/)
@@ -53,57 +53,43 @@ class Solution {
 public:
     vector<int> advantageCount(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
-        map<int, int> mp;
+        map<int, vector<int>> ind;
         vector<int> ans(n, -1);
 
         for (int i = 0; i < n; i++) {
-            mp[nums1[i]]++;
+            ind[nums2[i]].push_back(i);
         }
 
-        vector<pair<int, int>> vec;
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
 
+        int j = 0;
         for (int i = 0; i < n; i++) {
-            vec.push_back({nums2[i], i});
-        }
-
-        sort(vec.begin(), vec.end());
-
-        for (int i = 0; i < n; i++) {
-            int node = vec[i].first;
-            int ind = vec[i].second;
-            int mx = mp.rbegin()->first;
-
-            if (node >= mx) {
-                continue;
+            while (j < n && nums1[j] <= nums2[i]) {
+                j++;
             }
-
-            auto it=mp.begin();
-
-            while(it != mp.end()){
-                if(it->first>node){
-                    break;
+            if (j<n && nums1[j] > nums2[i]) {
+                if (ind[nums2[i]].size()) {
+                    int id = ind[nums2[i]][ind[nums2[i]].size()-1];
+                    ans[id] = nums1[j];
+                    nums1[j]=-1;
+                    ind[nums2[i]].pop_back();
                 }
-                it++;
-            }
-
-            if (it != mp.end()) {
-                ans[ind] = it->first;
-                it->second--;
-                if (it->second == 0) {
-                    mp.erase(it);
-                }
+                j++;
             }
         }
 
-        int k = 0;
-
-        for (auto it = mp.begin(); it != mp.end(); it++) {
-            while(it->second>0){
-                while(k<n && ans[k]!=-1){
-                    k++;
+        j=0;
+        for(int i=0;i<n;i++){
+            if(ans[i]==-1){
+                while(j<n && nums1[j]==-1){
+                    j++;
                 }
-                ans[k]=it->first;
-                it->second--;
+                if(j<n && nums1[j]!=-1){
+                    ans[i]=nums1[j];
+                    nums1[j]=-1;
+                    j++;
+                }
             }
         }
 
