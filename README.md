@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **160** | 2026-07-06 |
+| **161** | 2026-07-06 |
 
 ---
 
@@ -127,6 +127,7 @@
 | 804 | [Unique Morse Code Words](solutions/0804-unique-morse-code-words.md) | 🟢 Easy | 2026-10-15 | 05:53 pm |
 | 827 | [Making A Large Island](solutions/0827-making-a-large-island.md) | 🔴 Hard | 2026-10-10 | 04:04 pm |
 | 863 | [All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree.md) | 🟡 Medium | 2026-10-04 | 04:46 pm |
+| 870 | [Advantage Shuffle](solutions/0870-advantage-shuffle.md) | 🟡 Medium | 2026-10-26 | 11:06 pm |
 | 877 | [Stone Game](solutions/0877-stone-game.md) | 🟡 Medium | 2026-08-03 | 04:35 am |
 | 901 | [Online Stock Span](solutions/0901-online-stock-span.md) | 🟡 Medium | 2026-10-16 | 11:00 pm |
 | 907 | [Sum of Subarray Minimums](solutions/0907-sum-of-subarray-minimums.md) | 🟡 Medium | 2026-10-22 | 11:50 pm |
