@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 27 October 2026 at 12:03 am IST |
-| **Runtime** | 223 ms *(beats 5.2%)* |
-| **Memory** | 93.1 MB *(beats 5.0%)* |
+| **Submitted** | 27 October 2026 at 11:26 am IST |
+| **Runtime** | 33 ms *(beats 73.5%)* |
+| **Memory** | 67.2 MB *(beats 73.2%)* |
 | **Topics** | `Array` `Two Pointers` `Greedy` `Sorting` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/advantage-shuffle/)
@@ -52,48 +52,32 @@ Return *any permutation of *`nums1`* that maximizes its **advantage** with respe
 class Solution {
 public:
     vector<int> advantageCount(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        map<int, vector<int>> ind;
-        vector<int> ans(n, -1);
+        int n=nums1.size();
+        vector<pair<int,int>> vec;
 
-        for (int i = 0; i < n; i++) {
-            ind[nums2[i]].push_back(i);
-        }
-
-        sort(nums1.begin(), nums1.end());
-        sort(nums2.begin(), nums2.end());
-
-        int j = 0;
-        for (int i = 0; i < n; i++) {
-            while (j < n && nums1[j] <= nums2[i]) {
-                j++;
-            }
-            if (j<n && nums1[j] > nums2[i]) {
-                if (ind[nums2[i]].size()) {
-                    int id = ind[nums2[i]][ind[nums2[i]].size()-1];
-                    ans[id] = nums1[j];
-                    nums1[j]=-1;
-                    ind[nums2[i]].pop_back();
-                }
-                j++;
-            }
-        }
-
-        j=0;
         for(int i=0;i<n;i++){
-            if(ans[i]==-1){
-                while(j<n && nums1[j]==-1){
-                    j++;
-                }
-                if(j<n && nums1[j]!=-1){
-                    ans[i]=nums1[j];
-                    nums1[j]=-1;
-                    j++;
-                }
+            vec.push_back({nums2[i], i});
+        }
+
+        sort(vec.begin(), vec.end());
+        sort(nums1.begin(), nums1.end());
+
+        int l=0, r=n-1;
+
+        for(int i=n-1;i>=0;i--){
+            if(l>r){
+                break;
+            }
+            if(nums1[r]>vec[i].first){
+                nums2[vec[i].second]=nums1[r];
+                r--;
+            }else{
+                nums2[vec[i].second]=nums1[l];
+                l++;
             }
         }
 
-        return ans;
+        return nums2;
     }
 };
 ```
