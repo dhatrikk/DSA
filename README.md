@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **164** | 2026-07-06 |
+| **165** | 2026-07-06 |
 
 ---
 
@@ -113,6 +113,7 @@
 | 577 | [Employee Bonus](solutions/0577-employee-bonus.md) | 🟢 Easy | 2026-10-30 | 08:27 am |
 | 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-22 | 11:00 pm |
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
+| 620 | [Not Boring Movies](solutions/0620-not-boring-movies.md) | 🟢 Easy | 2026-10-30 | 09:43 pm |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
 | 645 | [Set Mismatch](solutions/0645-set-mismatch.md) | 🟢 Easy | 2026-10-08 | 09:20 pm |
 | 662 | [Maximum Width of Binary Tree](solutions/0662-maximum-width-of-binary-tree.md) | 🟡 Medium | 2026-10-04 | 12:09 pm |
