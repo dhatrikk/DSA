@@ -4,8 +4,8 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python3 |
-| **Submitted** | 31 October 2026 at 03:34 am IST |
-| **Runtime** | 2 ms *(beats 18.9%)* |
+| **Submitted** | 31 October 2026 at 03:36 am IST |
+| **Runtime** | 0 ms *(beats 100.0%)* |
 | **Memory** | 19.1 MB *(beats 81.8%)* |
 | **Topics** | `Math` `Simulation` `Number Theory` |
 
