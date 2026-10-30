@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **176** | 2026-07-06 |
+| **177** | 2026-07-06 |
 
 ---
 
@@ -176,6 +176,7 @@
 | 1827 | [Minimum Operations to Make the Array Increasing](solutions/1827-minimum-operations-to-make-the-array-increasing.md) | 🟢 Easy | 2026-10-08 | 03:50 am |
 | 1934 | [Confirmation Rate](solutions/1934-confirmation-rate.md) | 🟡 Medium | 2026-10-31 | 02:14 am |
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
+| 1978 | [Employees Whose Manager Left the Company](solutions/1978-employees-whose-manager-left-the-company.md) | 🟢 Easy | 2026-10-31 | 03:11 am |
 | 2149 | [Rearrange Array Elements by Sign](solutions/2149-rearrange-array-elements-by-sign.md) | 🟡 Medium | 2026-07-28 | 08:11 pm |
 | 2592 | [Maximize Greatness of an Array](solutions/2592-maximize-greatness-of-an-array.md) | 🟡 Medium | 2026-10-08 | 04:10 am |
 | 2685 | [Count the Number of Complete Components](solutions/2685-count-the-number-of-complete-components.md) | 🟡 Medium | 2026-07-12 | 10:58 pm |
