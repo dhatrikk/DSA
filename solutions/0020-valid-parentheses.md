@@ -3,10 +3,10 @@
 | Field | Details |
 |---|---|
 | **Difficulty** | 🟢 Easy |
-| **Language** | C++ |
-| **Submitted** | 9 August 2026 at 10:16 am IST |
-| **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 8.8 MB *(beats 89.8%)* |
+| **Language** | Python3 |
+| **Submitted** | 31 October 2026 at 05:23 am IST |
+| **Runtime** | 1 ms *(beats 46.6%)* |
+| **Memory** | 19.2 MB *(beats 86.7%)* |
 | **Topics** | `String` `Stack` `Bracket Sequences` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/valid-parentheses/)
@@ -69,39 +69,21 @@ An input string is valid if:
 
 ## ✅ Accepted Solution
 
-```cpp
-class Solution {
-public:
-    bool isValid(string s) {
-        stack<char> st;
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        
+        st = []
 
-        for(char c:s){
-            if(c==')'){
-                if(st.size() && st.top()=='('){
-                    st.pop();
-                }else{
-                    return false;
-                }
-            }else if(c=='}'){
-                if(st.size() && st.top()=='{'){
-                    st.pop();
-                }else{
-                    return false;
-                }
-            }else if(c==']'){
-                if(st.size() && st.top()=='['){
-                    st.pop();
-                }else{
-                    return false;
-                }
-            }else {
-                st.push(c);
-            }
-        }
+        for i in range(0, len(s), 1):
+            if len(st) and ((s[i]==')' and st[-1]=='(') or (s[i]==']' and st[-1]=='[') or (s[i]=='}' and st[-1]=='{')):
+                st.pop()
+            else:
+                st.append(s[i])    
 
-        return st.size()?false:true;
-    }
-};
+        if len(st):
+            return False       
+        return True
 ```
 
 ---
