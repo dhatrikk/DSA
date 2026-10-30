@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **184** | 2026-07-06 |
+| **185** | 2026-07-06 |
 
 ---
 
@@ -95,6 +95,7 @@
 | 236 | [Lowest Common Ancestor of a Binary Tree](solutions/0236-lowest-common-ancestor-of-a-binary-tree.md) | 🟡 Medium | 2026-10-03 | 10:02 pm |
 | 237 | [Delete Node in a Linked List](solutions/0237-delete-node-in-a-linked-list.md) | 🟡 Medium | 2026-08-13 | 10:37 pm |
 | 238 | [Product of Array Except Self](solutions/0238-product-of-array-except-self.md) | 🟡 Medium | 2026-10-31 | 04:34 am |
+| 242 | [Valid Anagram](solutions/0242-valid-anagram.md) | 🟢 Easy | 2026-10-31 | 05:00 am |
 | 258 | [Add Digits](solutions/0258-add-digits.md) | 🟢 Easy | 2026-10-31 | 03:36 am |
 | 260 | [Single Number III](solutions/0260-single-number-iii.md) | 🟡 Medium | 2026-10-08 | 08:28 pm |
 | 283 | [Move Zeroes](solutions/0283-move-zeroes.md) | 🟢 Easy | 2026-10-31 | 04:39 am |
