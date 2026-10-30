@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **165** | 2026-07-06 |
+| **166** | 2026-07-06 |
 
 ---
 
@@ -147,6 +147,7 @@
 | 1189 | [Maximum Number of Balloons](solutions/1189-maximum-number-of-balloons.md) | 🟢 Easy | 2026-07-06 | 05:19 pm |
 | 1192 | [Critical Connections in a Network](solutions/1192-critical-connections-in-a-network.md) | 🔴 Hard | 2026-10-07 | 04:50 pm |
 | 1248 | [Count Number of Nice Subarrays](solutions/1248-count-number-of-nice-subarrays.md) | 🟡 Medium | 2026-10-13 | 03:07 am |
+| 1251 | [Average Selling Price](solutions/1251-average-selling-price.md) | 🟢 Easy | 2026-10-30 | 10:18 pm |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
 | 1280 | [Students and Examinations](solutions/1280-students-and-examinations.md) | 🟢 Easy | 2026-10-30 | 09:14 pm |
 | 1319 | [Number of Operations to Make Network Connected](solutions/1319-number-of-operations-to-make-network-connected.md) | 🟡 Medium | 2026-10-10 | 02:51 am |
