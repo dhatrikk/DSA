@@ -3,10 +3,10 @@
 | Field | Details |
 |---|---|
 | **Difficulty** | 🟢 Easy |
-| **Language** | C++ |
-| **Submitted** | 21 September 2026 at 03:09 am IST |
+| **Language** | Python3 |
+| **Submitted** | 31 October 2026 at 04:44 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 22.6 MB *(beats 52.0%)* |
+| **Memory** | 20.3 MB *(beats 96.7%)* |
 | **Topics** | `Array` `Two Pointers` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -73,23 +73,20 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## ✅ Accepted Solution
 
-```cpp
-class Solution {
-public:
-    int removeDuplicates(vector<int>& nums) {
-        int ind=1;
-        int num=nums[0];
+```python
+class Solution:
+    def removeDuplicates(self, nums: list[int]) -> int:
+        
+        ind=1
+        num=nums[0]
 
-        for(int i:nums){
-            if(num!=i){
-                num=i;
-                nums[ind]=num;
-                ind++;
-            }
-        }
-        return ind;
-    }
-};
+        for i in range(1, len(nums), 1):
+            if(nums[i]!=num):
+                nums[ind]=nums[i]
+                num=nums[i]
+                ind+=1
+
+        return ind
 ```
 
 ---
