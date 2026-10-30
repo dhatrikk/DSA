@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **163** | 2026-07-06 |
+| **164** | 2026-07-06 |
 
 ---
 
@@ -109,6 +109,7 @@
 | 540 | [Single Element in a Sorted Array](solutions/0540-single-element-in-a-sorted-array.md) | 🟡 Medium | 2026-08-08 | 06:45 pm |
 | 542 | [01 Matrix](solutions/0542-01-matrix.md) | 🟡 Medium | 2026-09-21 | 08:29 pm |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k.md) | 🟡 Medium | 2026-08-03 | 05:46 am |
+| 570 | [Managers with at Least 5 Direct Reports](solutions/0570-managers-with-at-least-5-direct-reports.md) | 🟡 Medium | 2026-10-30 | 09:22 pm |
 | 577 | [Employee Bonus](solutions/0577-employee-bonus.md) | 🟢 Easy | 2026-10-30 | 08:27 am |
 | 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-22 | 11:00 pm |
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
