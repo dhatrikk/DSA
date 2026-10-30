@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **175** | 2026-07-06 |
+| **176** | 2026-07-06 |
 
 ---
 
@@ -169,6 +169,7 @@
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
 | 1631 | [Path With Minimum Effort](solutions/1631-path-with-minimum-effort.md) | 🟡 Medium | 2026-10-03 | 02:12 pm |
 | 1633 | [Percentage of Users Attended a Contest](solutions/1633-percentage-of-users-attended-a-contest.md) | 🟢 Easy | 2026-10-30 | 10:55 pm |
+| 1661 | [Average Time of Process per Machine](solutions/1661-average-time-of-process-per-machine.md) | 🟢 Easy | 2026-10-31 | 02:46 am |
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1729 | [Find Followers Count](solutions/1729-find-followers-count.md) | 🟢 Easy | 2026-10-31 | 12:21 am |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
