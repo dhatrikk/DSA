@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **178** | 2026-07-06 |
+| **179** | 2026-07-06 |
 
 ---
 
@@ -93,6 +93,7 @@
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](solutions/0235-lowest-common-ancestor-of-a-binary-search-tree.md) | 🟡 Medium | 2026-10-03 | 10:21 pm |
 | 236 | [Lowest Common Ancestor of a Binary Tree](solutions/0236-lowest-common-ancestor-of-a-binary-tree.md) | 🟡 Medium | 2026-10-03 | 10:02 pm |
 | 237 | [Delete Node in a Linked List](solutions/0237-delete-node-in-a-linked-list.md) | 🟡 Medium | 2026-08-13 | 10:37 pm |
+| 258 | [Add Digits](solutions/0258-add-digits.md) | 🟢 Easy | 2026-10-31 | 03:34 am |
 | 260 | [Single Number III](solutions/0260-single-number-iii.md) | 🟡 Medium | 2026-10-08 | 08:28 pm |
 | 300 | [Longest Increasing Subsequence](solutions/0300-longest-increasing-subsequence.md) | 🟡 Medium | 2026-09-30 | 09:01 pm |
 | 416 | [Partition Equal Subset Sum](solutions/0416-partition-equal-subset-sum.md) | 🟡 Medium | 2026-09-28 | 10:34 pm |
