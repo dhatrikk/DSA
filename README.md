@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **169** | 2026-07-06 |
+| **170** | 2026-07-06 |
 
 ---
 
@@ -166,6 +166,7 @@
 | 1631 | [Path With Minimum Effort](solutions/1631-path-with-minimum-effort.md) | 🟡 Medium | 2026-10-03 | 02:12 pm |
 | 1633 | [Percentage of Users Attended a Contest](solutions/1633-percentage-of-users-attended-a-contest.md) | 🟢 Easy | 2026-10-30 | 10:55 pm |
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
+| 1729 | [Find Followers Count](solutions/1729-find-followers-count.md) | 🟢 Easy | 2026-10-31 | 12:21 am |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
 | 1827 | [Minimum Operations to Make the Array Increasing](solutions/1827-minimum-operations-to-make-the-array-increasing.md) | 🟢 Easy | 2026-10-08 | 03:50 am |
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
