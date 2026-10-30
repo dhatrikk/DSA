@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **181** | 2026-07-06 |
+| **182** | 2026-07-06 |
 
 ---
 
@@ -97,6 +97,7 @@
 | 238 | [Product of Array Except Self](solutions/0238-product-of-array-except-self.md) | 🟡 Medium | 2026-10-31 | 04:34 am |
 | 258 | [Add Digits](solutions/0258-add-digits.md) | 🟢 Easy | 2026-10-31 | 03:36 am |
 | 260 | [Single Number III](solutions/0260-single-number-iii.md) | 🟡 Medium | 2026-10-08 | 08:28 pm |
+| 283 | [Move Zeroes](solutions/0283-move-zeroes.md) | 🟢 Easy | 2026-10-31 | 04:39 am |
 | 300 | [Longest Increasing Subsequence](solutions/0300-longest-increasing-subsequence.md) | 🟡 Medium | 2026-09-30 | 09:01 pm |
 | 416 | [Partition Equal Subset Sum](solutions/0416-partition-equal-subset-sum.md) | 🟡 Medium | 2026-09-28 | 10:34 pm |
 | 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement.md) | 🟡 Medium | 2026-10-12 | 09:03 pm |
