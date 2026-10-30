@@ -3,10 +3,10 @@
 | Field | Details |
 |---|---|
 | **Difficulty** | 🟢 Easy |
-| **Language** | C++ |
-| **Submitted** | 21 September 2026 at 04:31 pm IST |
+| **Language** | Python3 |
+| **Submitted** | 31 October 2026 at 05:14 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 14.9 MB *(beats 28.9%)* |
+| **Memory** | 20.3 MB *(beats 62.8%)* |
 | **Topics** | `Array` `Hash Table` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/two-sum/)
@@ -25,25 +25,33 @@ You can return the answer in any order.
 
 **Example 1:**
 
-```
-**Input:** nums = [2,7,11,15], target = 9
-**Output:** [0,1]
-**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
-```
+**Input:** `nums = [2,7,11,15], target = 9`
+
+**Output:** `[0,1]`
+
+**Explanation:**
+
+The sum of `nums[0]` and `nums[1]` is `2 + 7 = 9`, which equals the target. Therefore, the indices `[0, 1]` are returned.
 
 **Example 2:**
 
-```
-**Input:** nums = [3,2,4], target = 6
-**Output:** [1,2]
-```
+**Input:** `nums = [3,2,4], target = 6`
+
+**Output:** `[1,2]`
+
+**Explanation:**
+
+The sum of `nums[1]` and `nums[2]` is `2 + 4 = 6`, which equals the target. Therefore, the indices `[1, 2]` are returned.
 
 **Example 3:**
 
-```
-**Input:** nums = [3,3], target = 6
-**Output:** [0,1]
-```
+**Input:** `nums = [3,3], target = 6`
+
+**Output:** `[0,1]`
+
+**Explanation:**
+
+The sum of `nums[0]` and `nums[1]` is `3 + 3 = 6`, which equals the target. Therefore, the indices `[0, 1]` are returned.
 
  
 
@@ -55,25 +63,19 @@ You can return the answer in any order.
 
 ## ✅ Accepted Solution
 
-```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> mp;
-        int n=nums.size();
-        int req;
+```python
+class Solution:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
 
-        for(int i=0;i<n;i++){
-            req=target-nums[i];
-            auto it=mp.find(req);
-            if(it!=mp.end()){
-                return {it->second, i};
-            }
-            mp[nums[i]]=i;
-        }
-        return {-1,-1};
-    }
-};
+        mp = dict()
+
+        for i in range(0, len(nums), 1):
+            if target-nums[i] in mp:
+                return (mp[target-nums[i]], i)
+            else:
+                mp[nums[i]]=i
+
+        return(-1,-1)
 ```
 
 ---
