@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **177** | 2026-07-06 |
+| **178** | 2026-07-06 |
 
 ---
 
@@ -173,6 +173,7 @@
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1729 | [Find Followers Count](solutions/1729-find-followers-count.md) | 🟢 Easy | 2026-10-31 | 12:21 am |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
+| 1789 | [Primary Department for Each Employee](solutions/1789-primary-department-for-each-employee.md) | 🟢 Easy | 2026-10-31 | 03:20 am |
 | 1827 | [Minimum Operations to Make the Array Increasing](solutions/1827-minimum-operations-to-make-the-array-increasing.md) | 🟢 Easy | 2026-10-08 | 03:50 am |
 | 1934 | [Confirmation Rate](solutions/1934-confirmation-rate.md) | 🟡 Medium | 2026-10-31 | 02:14 am |
 | 1952 | [Three Divisors](solutions/1952-three-divisors.md) | 🟢 Easy | 2026-08-08 | 12:45 am |
