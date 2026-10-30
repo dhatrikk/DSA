@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **167** | 2026-07-06 |
+| **168** | 2026-07-06 |
 
 ---
 
@@ -163,6 +163,7 @@
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](solutions/1581-customer-who-visited-but-did-not-make-any-transactions.md) | 🟢 Easy | 2026-08-23 | 10:32 pm |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614-maximum-nesting-depth-of-the-parentheses.md) | 🟢 Easy | 2026-08-05 | 04:50 pm |
 | 1631 | [Path With Minimum Effort](solutions/1631-path-with-minimum-effort.md) | 🟡 Medium | 2026-10-03 | 02:12 pm |
+| 1633 | [Percentage of Users Attended a Contest](solutions/1633-percentage-of-users-attended-a-contest.md) | 🟢 Easy | 2026-10-30 | 10:55 pm |
 | 1683 | [Invalid Tweets](solutions/1683-invalid-tweets.md) | 🟢 Easy | 2026-08-20 | 10:27 pm |
 | 1757 | [Recyclable and Low Fat Products](solutions/1757-recyclable-and-low-fat-products.md) | 🟢 Easy | 2026-08-20 | 09:50 pm |
 | 1827 | [Minimum Operations to Make the Array Increasing](solutions/1827-minimum-operations-to-make-the-array-increasing.md) | 🟢 Easy | 2026-10-08 | 03:50 am |
