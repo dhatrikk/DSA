@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **183** | 2026-07-06 |
+| **184** | 2026-07-06 |
 
 ---
 
@@ -167,6 +167,7 @@
 | 1406 | [Stone Game III](solutions/1406-stone-game-iii.md) | 🔴 Hard | 2026-08-04 | 04:28 am |
 | 1423 | [Maximum Points You Can Obtain from Cards](solutions/1423-maximum-points-you-can-obtain-from-cards.md) | 🟡 Medium | 2026-10-09 | 02:06 am |
 | 1464 | [Maximum Product of Two Elements in an Array](solutions/1464-maximum-product-of-two-elements-in-an-array.md) | 🟢 Easy | 2026-07-27 | 02:18 pm |
+| 1480 | [Running Sum of 1d Array](solutions/1480-running-sum-of-1d-array.md) | 🟢 Easy | 2026-10-31 | 04:54 am |
 | 1527 | [Patients With a Condition](solutions/1527-patients-with-a-condition.md) | 🟢 Easy | 2026-10-31 | 01:28 am |
 | 1539 | [Kth Missing Positive Number](solutions/1539-kth-missing-positive-number.md) | 🟢 Easy | 2026-08-09 | 08:37 am |
 | 1547 | [Minimum Cost to Cut a Stick](solutions/1547-minimum-cost-to-cut-a-stick.md) | 🔴 Hard | 2026-10-12 | 06:41 am |
