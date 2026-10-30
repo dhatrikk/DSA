@@ -4,8 +4,8 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | postgresql |
-| **Submitted** | 23 August 2026 at 10:44 pm IST |
-| **Runtime** | 212 ms *(beats 90.6%)* |
+| **Submitted** | 30 October 2026 at 07:44 am IST |
+| **Runtime** | 211 ms *(beats 79.2%)* |
 | **Memory** | 0B *(beats 100.0%)* |
 | **Topics** | `Database` |
 
@@ -32,7 +32,7 @@ This table contains information about the temperature on a certain day.
 
  
 
-Write a solution to find all dates' `id` with higher temperatures compared to its previous dates (yesterday).
+Write a solution to find all dates' `id` with higher temperatures compared to its previous calendar dates (yesterday).
 
 Return the result table in **any order**.
 
@@ -72,9 +72,9 @@ In 2015-01-04, the temperature was higher than the previous day (20 -> 30).
 ```postgresql
 -- Write your PostgreSQL query statement below
 SELECT id FROM (
-    SELECT id, Temperature - LAG(temperature) OVER(ORDER BY recordDate) as diff,
-    RecordDate - LAG(recordDate) OVER(ORDER BY recordDate) as datediff
+    SELECT *, 
+    LAG(temperature) OVER(ORDER BY recordDate) as prev,
+    LAG(recordDate) OVER(ORDER BY recordDate) as prevdate
     FROM Weather
-)
-WHERE diff>0 AND datediff=1;
+) AS w WHERE temperature > prev AND recordDate = prevdate + INTERVAL '1 day';
 ```
