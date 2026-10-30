@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **173** | 2026-07-06 |
+| **174** | 2026-07-06 |
 
 ---
 
@@ -114,6 +114,7 @@
 | 584 | [Find Customer Referee](solutions/0584-find-customer-referee.md) | 🟢 Easy | 2026-08-22 | 11:00 pm |
 | 595 | [Big Countries](solutions/0595-big-countries.md) | 🟢 Easy | 2026-08-20 | 10:14 pm |
 | 596 | [Classes With at Least 5 Students](solutions/0596-classes-with-at-least-5-students.md) | 🟢 Easy | 2026-10-31 | 12:13 am |
+| 610 | [Triangle Judgement](solutions/0610-triangle-judgement.md) | 🟢 Easy | 2026-10-31 | 01:38 am |
 | 619 | [Biggest Single Number](solutions/0619-biggest-single-number.md) | 🟢 Easy | 2026-10-31 | 12:45 am |
 | 620 | [Not Boring Movies](solutions/0620-not-boring-movies.md) | 🟢 Easy | 2026-10-30 | 09:43 pm |
 | 628 | [Maximum Product of Three Numbers](solutions/0628-maximum-product-of-three-numbers.md) | 🟢 Easy | 2026-07-26 | 05:52 pm |
