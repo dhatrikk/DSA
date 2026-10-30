@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **162** | 2026-07-06 |
+| **163** | 2026-07-06 |
 
 ---
 
@@ -146,6 +146,7 @@
 | 1192 | [Critical Connections in a Network](solutions/1192-critical-connections-in-a-network.md) | 🔴 Hard | 2026-10-07 | 04:50 pm |
 | 1248 | [Count Number of Nice Subarrays](solutions/1248-count-number-of-nice-subarrays.md) | 🟡 Medium | 2026-10-13 | 03:07 am |
 | 1260 | [Shift 2D Grid](solutions/1260-shift-2d-grid.md) | 🟢 Easy | 2026-07-20 | 07:13 pm |
+| 1280 | [Students and Examinations](solutions/1280-students-and-examinations.md) | 🟢 Easy | 2026-10-30 | 09:14 pm |
 | 1319 | [Number of Operations to Make Network Connected](solutions/1319-number-of-operations-to-make-network-connected.md) | 🟡 Medium | 2026-10-10 | 02:51 am |
 | 1331 | [Rank Transform of an Array](solutions/1331-rank-transform-of-an-array.md) | 🟢 Easy | 2026-07-12 | 11:08 am |
 | 1358 | [Number of Substrings Containing All Three Characters](solutions/1358-number-of-substrings-containing-all-three-characters.md) | 🟡 Medium | 2026-10-12 | 07:39 am |
