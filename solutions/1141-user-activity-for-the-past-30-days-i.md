@@ -4,8 +4,8 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | postgresql |
-| **Submitted** | 31 October 2026 at 01:18 am IST |
-| **Runtime** | 327 ms *(beats 81.4%)* |
+| **Submitted** | 31 October 2026 at 01:19 am IST |
+| **Runtime** | 335 ms *(beats 74.3%)* |
 | **Memory** | 0B *(beats 100.0%)* |
 | **Topics** | `Database` |
 
@@ -87,6 +87,6 @@ SELECT e.activity_date as day, COUNT(*) as active_users FROM (
     GROUP BY user_id, activity_date
 ) as e 
 GROUP BY day
-HAVING  e.activity_date::DATE <= '2019-07-27'::DATE AND
-e.activity_date::DATE > '2019-07-27'::DATE - 30;
+HAVING  e.activity_date <= '2019-07-27'::DATE AND
+e.activity_date> '2019-07-27'::DATE - 30;
 ```
