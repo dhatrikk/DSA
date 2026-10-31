@@ -131,7 +131,7 @@
 | 678 | [Valid Parenthesis String](solutions/0678-valid-parenthesis-string.md) | 🟡 Medium | 2026-09-25 | 07:48 am |
 | 684 | [Redundant Connection](solutions/0684-redundant-connection.md) | 🟡 Medium | 2026-09-24 | 07:18 pm |
 | 686 | [Repeated String Match](solutions/0686-repeated-string-match.md) | 🟡 Medium | 2026-10-08 | 02:46 pm |
-| 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-10-31 | 05:44 am |
+| 704 | [Binary Search](solutions/0704-binary-search.md) | 🟢 Easy | 2026-10-31 | 05:45 am |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](solutions/0714-best-time-to-buy-and-sell-stock-with-transaction-fee.md) | 🟡 Medium | 2026-09-28 | 02:31 am |
 | 733 | [Flood Fill](solutions/0733-flood-fill.md) | 🟢 Easy | 2026-09-21 | 03:52 pm |
 | 735 | [Asteroid Collision](solutions/0735-asteroid-collision.md) | 🟡 Medium | 2026-08-07 | 09:10 pm |
