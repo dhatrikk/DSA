@@ -3,10 +3,10 @@
 | Field | Details |
 |---|---|
 | **Difficulty** | 🟢 Easy |
-| **Language** | C++ |
-| **Submitted** | 8 August 2026 at 12:50 pm IST |
+| **Language** | Python3 |
+| **Submitted** | 31 October 2026 at 05:44 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 31.3 MB *(beats 82.3%)* |
+| **Memory** | 20.6 MB *(beats 33.8%)* |
 | **Topics** | `Array` `Binary Search` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-search/)
@@ -53,25 +53,22 @@ You must write an algorithm with `O(log n)` runtime complexity.
 
 ## ✅ Accepted Solution
 
-```cpp
-class Solution {
-public:
-    int search(vector<int>& nums, int target) {
-        int l=0, m;
-        int r=nums.size()-1;
+```python
+class Solution:
+    def search(self, nums: list[int], target: int) -> int:
+        
+        l=0 
+        r=len(nums)-1
 
-        while(l<=r){
-            m=(l+r)/2;
-            if(nums[m]==target){
-                return m;
-            }
-            if(nums[m]>target){
-                r=m-1;
-            }else if(nums[m]<target){
-                l=m+1;
-            }
-        }
-        return -1;
-    }
-};
+        while l<=r:
+            mid=l+(r-l)//2
+
+            if nums[mid]>target:
+                r=mid-1
+            elif nums[mid]<target:
+                l=mid+1
+            else:
+                return mid       
+
+        return -1
 ```
