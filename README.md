@@ -9,7 +9,7 @@
 
 | Total Solved | Last Updated |
 |:---:|:---:|
-| **186** | 2026-07-06 |
+| **187** | 2026-07-06 |
 
 ---
 
@@ -147,6 +147,7 @@
 | 912 | [Sort an Array](solutions/0912-sort-an-array.md) | 🟡 Medium | 2026-08-04 | 08:30 pm |
 | 921 | [Minimum Add to Make Parentheses Valid](solutions/0921-minimum-add-to-make-parentheses-valid.md) | 🟡 Medium | 2026-08-07 | 04:27 am |
 | 930 | [Binary Subarrays With Sum](solutions/0930-binary-subarrays-with-sum.md) | 🟡 Medium | 2026-10-13 | 03:04 am |
+| 933 | [Number of Recent Calls](solutions/0933-number-of-recent-calls.md) | 🟢 Easy | 2026-10-31 | 05:40 am |
 | 987 | [Vertical Order Traversal of a Binary Tree](solutions/0987-vertical-order-traversal-of-a-binary-tree.md) | 🔴 Hard | 2026-10-04 | 02:49 pm |
 | 994 | [Rotting Oranges](solutions/0994-rotting-oranges.md) | 🟡 Medium | 2026-09-21 | 08:18 pm |
 | 1004 | [Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii.md) | 🟡 Medium | 2026-10-09 | 02:15 am |
