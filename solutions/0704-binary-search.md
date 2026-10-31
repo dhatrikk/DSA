@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟢 Easy |
 | **Language** | Python3 |
-| **Submitted** | 31 October 2026 at 05:44 am IST |
+| **Submitted** | 31 October 2026 at 05:45 am IST |
 | **Runtime** | 0 ms *(beats 100.0%)* |
-| **Memory** | 20.6 MB *(beats 33.8%)* |
+| **Memory** | 20.3 MB *(beats 97.4%)* |
 | **Topics** | `Array` `Binary Search` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/binary-search/)
