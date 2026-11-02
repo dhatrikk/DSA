@@ -4,9 +4,9 @@
 |---|---|
 | **Difficulty** | 🟡 Medium |
 | **Language** | C++ |
-| **Submitted** | 2 November 2026 at 12:57 pm IST |
-| **Runtime** | 246 ms *(beats 62.8%)* |
-| **Memory** | 13.9 MB *(beats 83.9%)* |
+| **Submitted** | 2 November 2026 at 01:01 pm IST |
+| **Runtime** | 280 ms *(beats 58.3%)* |
+| **Memory** | 13.8 MB *(beats 83.9%)* |
 | **Topics** | `Array` `Math` `Enumeration` `Number Theory` `Primality Test` `Sieve Theory` `Prime Number Sieve` |
 
 🔗 [View on LeetCode](https://leetcode.com/problems/count-primes/)
@@ -59,21 +59,20 @@ public:
             return 0;
         }
 
+        int ans=n;
+
         vector<bool> isp(n, true);
         isp[0]=isp[1]=false;
+        ans-=2;
 
         for(long long i=2;i<n;i++){
             if(isp[i]){
                 for(long long j=i*i;j<n;j+=i){
+                    if(isp[j]){
+                        ans--;
+                    }
                     isp[j]=false;
                 }
-            }
-        }
-
-        int ans=0;
-        for(int i=0;i<n;i++){
-            if(isp[i]){
-                ans++;
             }
         }
 
